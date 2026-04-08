@@ -17,13 +17,14 @@ pares = [x for x in range(10) if x % 2 == 0]
 # Principios SOLID (S de SRP)
 El primer principio de SOLID es el de Responsabilidad Única (SRP). Una clase o función debe tener una sola razón para cambiar. Si una función calcula un impuesto, no debería encargarse también de imprimir el recibo.
 
-# 🚀 Mi Camino a Full Stack Developer
-Este repositorio contiene mi progreso, notas y ejercicios del Máster en Conquer Blocks.
+## 🎓 Sobre el Máster
+Estoy formándome en [Conquer Blocks](https://conquerblocks.com), una academia de alto rendimiento enfocada en tecnologías modernas y buenas prácticas de programación.
 
-## 📖 Tabla de Contenidos
-* [Fundamentos de Python](#-fundamentos-de-python)
-* [Principios SOLID](#-principios-solid)
-* [Proyectos Realizados](#-proyectos)
+## 📖 Tabla de Contenidos (Navegación interna)
+* [🐍 Fundamentos de Python](#fundamentos-de-python)
+* [🟢 Principios SOLID](#principios-solid-s-de-srp)
+* [📁 Mis Proyectos](#proyectos-realizados)
+
 
 📍 Actualmente cursando el Máster en Conquer Blocks con el objetivo de especializarme en el mercado tecnológico español. Enfocado en Clean Code (SOLID) y arquitectura escalable."
 Este repositorio es mi diario de aprendizaje mientras curso el Máster en Desarrollo Full Stack en Conquer Blocks. Aquí comparto mis propios resúmenes, lógica y soluciones a retos técnicos, respetando siempre los materiales privados de la academia.
