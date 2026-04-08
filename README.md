@@ -26,3 +26,4 @@ Este repositorio contiene mi progreso, notas y ejercicios del Máster en Conquer
 * [Proyectos Realizados](#-proyectos)
 
 📍 Actualmente cursando el Máster en Conquer Blocks con el objetivo de especializarme en el mercado tecnológico español. Enfocado en Clean Code (SOLID) y arquitectura escalable."
+Este repositorio es mi diario de aprendizaje mientras curso el Máster en Desarrollo Full Stack en Conquer Blocks. Aquí comparto mis propios resúmenes, lógica y soluciones a retos técnicos, respetando siempre los materiales privados de la academia.
