@@ -7,3 +7,4 @@ Un ejemplo claro puede ser:
 nombre = "Sam estudiante Conquer"
 print(f"Hola, mi nombre es {Sam}")
 
+pares = [x for x in range(10) if x % 2 == 0]
