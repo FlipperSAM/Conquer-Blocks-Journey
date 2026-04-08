@@ -24,3 +24,5 @@ Este repositorio contiene mi progreso, notas y ejercicios del Máster en Conquer
 * [Fundamentos de Python](#-fundamentos-de-python)
 * [Principios SOLID](#-principios-solid)
 * [Proyectos Realizados](#-proyectos)
+
+📍 Actualmente cursando el Máster en Conquer Blocks con el objetivo de especializarme en el mercado tecnológico español. Enfocado en Clean Code (SOLID) y arquitectura escalable."
