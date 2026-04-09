@@ -1,5 +1,10 @@
 # Conquer-Blocks-Journey
 
+## 📖 Tabla de Contenidos (Navegación interna)
+* [🐍 Fundamentos de Python](#fundamentos-de-python)
+* [🟢 Principios SOLID](#principios-solid-s-de-srp)
+* [📁 Mis Proyectos](#proyectos-realizados)
+
 # 💻 Dominio de la Terminal y Linux
 
 En el desarrollo de software moderno, la terminal no es solo una herramienta, es el entorno de trabajo principal. Este documento resume los comandos esenciales que utilizo para gestionar proyectos y sistemas de archivos de forma eficiente.
@@ -60,11 +65,6 @@ El primer principio de SOLID es el de Responsabilidad Única (SRP). Una clase o 
 
 ## 🎓 Sobre el Máster
 Estoy formándome en [Conquer Blocks](https://conquerblocks.com), una academia de alto rendimiento enfocada en tecnologías modernas y buenas prácticas de programación.
-
-## 📖 Tabla de Contenidos (Navegación interna)
-* [🐍 Fundamentos de Python](#fundamentos-de-python)
-* [🟢 Principios SOLID](#principios-solid-s-de-srp)
-* [📁 Mis Proyectos](#proyectos-realizados)
 
 
 📍 Actualmente cursando el Máster en Conquer Blocks con el objetivo de especializarme en el mercado tecnológico español. Enfocado en Clean Code (SOLID) y arquitectura escalable.
