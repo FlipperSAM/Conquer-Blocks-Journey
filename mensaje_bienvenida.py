@@ -10,7 +10,7 @@ def ejecutar_script():
     print(f"Contenido inicial: {mensaje_base}")
 
     # 2. Capturar nombre de usuario
-    nombre_usuario = input("Introduce tu nombre: ")
+    nombre_usuario = input("Sam")
 
     # 3. Formato en MAYÚSCULAS
     mensaje_caps = f"¡HOLA, {nombre_usuario}, {mensaje_base}!".upper()
