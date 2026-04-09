@@ -5,7 +5,7 @@
 Documentación técnica sobre las bases del lenguaje y manipulación de datos.
 *   **[📚 Notas: Manipulación de Strings](./NOTAS_STRINGS.md):** Explicación detallada de métodos como `.upper()`, `.lower()` y el uso de f-strings.
 
-* [🟢 Principios SOLID](#-principios-solid)
+* [🟢 Principios SOLID](./NOTAS_SOLID.md)
 
 * ## 📁 Mis Proyectos
 Aquí puedes encontrar los ejercicios prácticos que voy desarrollando durante el máster:
