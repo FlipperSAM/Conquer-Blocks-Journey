@@ -3,7 +3,11 @@
 ## 📖 Tabla de Contenidos (Navegación interna)
 * [🐍 Fundamentos de Python](#fundamentos-de-python)
 * [🟢 Principios SOLID](#principios-solid-s-de-srp)
-* [📁 Mis Proyectos](#proyectos-realizados)
+* ## 📁 Mis Proyectos
+
+Aquí puedes encontrar los ejercicios prácticos que voy desarrollando durante el máster:
+
+*   **[🐍 Script de Bienvenida Profesional](./mensaje_bienvenida.py):** Un ejercicio de normalización de datos, limpieza de strings y validación de usuarios con buenas prácticas de Python.
 
 # 💻 Dominio de la Terminal y Linux
 
