@@ -4,11 +4,11 @@
 * [🐍 Fundamentos de Python](#fundamentos-de-python)
 * [🟢 Principios SOLID](#principios-solid-s-de-srp)
 * ## 📁 Mis Proyectos
-
 Aquí puedes encontrar los ejercicios prácticos que voy desarrollando durante el máster:
-
 *   **[🐍 Script de Bienvenida Profesional](./mensaje_bienvenida.py):** Un ejercicio de normalización de datos, limpieza de strings y validación de usuarios con buenas prácticas de Python.
 
+## 📖 Teoria
+---
 # 💻 Dominio de la Terminal y Linux
 
 En el desarrollo de software moderno, la terminal no es solo una herramienta, es el entorno de trabajo principal. Este documento resume los comandos esenciales que utilizo para gestionar proyectos y sistemas de archivos de forma eficiente.
