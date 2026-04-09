@@ -51,25 +51,57 @@ En el desarrollo de software moderno, la terminal no es solo una herramienta, es
 > "Un buen desarrollador rara vez despega las manos del teclado." 
 > *Notas de aprendizaje en Conquer Blocks enfocadas en estándares Linux.*
 
+# 🐍 Python Avanzado y Principios SOLID
 
+Este documento forma parte de mi especialización en el **Máster de Conquer Blocks**. Aquí documento conceptos avanzados de Python y la implementación de arquitectura limpia.
 
-# 🐍 Tipado Dinámico y F-Strings
+---
 
-Python es de tipado dinámico, lo que significa que no necesito declarar el tipo de variable. Para imprimir de forma eficiente uso f-strings, que son más rápidas y legibles.
-Un ejemplo claro puede ser:
+## 🛠️ Python Avanzado
 
+### 1. Tipado Dinámico y F-Strings
+Python permite flexibilidad total, pero la legibilidad es clave:
 ```python
-nombre = "Sam estudiante Conquer"
-print(f"Hola, mi nombre es {Sam}")
+nombre = "Sam" 
+# Uso de f-strings para mayor claridad y rendimiento
+print(f"Desarrollador en formación: {nombre}")
 ```
-# 🐍 List Comprehensions (Python Avanzado)
-Una forma 'Pythonic' de crear listas es mediante List Comprehensions. Permite reducir líneas de código y mejorar la velocidad de ejecución.
+# 🐍 2. List Comprehensions
+
+Optimización de creación de listas en una sola línea:
+
+---
+
+# Crear lista de cuadrados de números pares
 ```python
-# Crear una lista de números pares
-pares = [x for x in range(10) if x % 2 == 0]
+cuadrados_pares = [x**2 for x in range(10) if x % 2 == 0]
 ```
-# Principios SOLID (S de SRP)
-El primer principio de SOLID es el de Responsabilidad Única (SRP). Una clase o función debe tener una sola razón para cambiar. Si una función calcula un impuesto, no debería encargarse también de imprimir el recibo.
+# 3. 🚫 Manejo Progresivo de Errores (Excepciones)
+Fundamental para que una aplicación no "explote" en producción:
+```python
+try:
+    divisor = int(input("Introduce un divisor: "))
+    print(10 / divisor)
+except ZeroDivisionError:
+    print("❌ Error: No se puede dividir por cero.")
+except ValueError:
+    print("❌ Error: Debes ingresar un número válido.")
+```
+
+# Principios SOLID
+El objetivo es crear código que sea fácil de mantener, testear y escalar, algo vital para empresas en España.
+
+---
+```python
+S: Single Responsibility Principle (SRP)
+"Una clase o función debe tener una única razón para cambiar."
+```
+# Ejemplo aplicado:
+
+En lugar de tener una función que calcule un salario y también lo guarde en la base de datos, dividimos las tareas en dos funciones independientes. Esto facilita los cambios futuros sin romper todo el sistema.
+
+Última actualización: Abril 2026 - Enfocado en Clean Code.
+---
 
 ## 🎓 Sobre el Máster
 Estoy formándome en [Conquer Blocks](https://conquerblocks.com), una academia de alto rendimiento enfocada en tecnologías modernas y buenas prácticas de programación.
