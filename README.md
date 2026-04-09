@@ -88,7 +88,8 @@ except ValueError:
     print("❌ Error: Debes ingresar un número válido.")
 ```
 
-# Principios SOLID
+## 🟢 Principios SOLID
+
 El objetivo es crear código que sea fácil de mantener, testear y escalar, algo vital para empresas en España.
 
 ---
