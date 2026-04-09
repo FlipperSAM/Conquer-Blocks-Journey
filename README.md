@@ -1,8 +1,12 @@
 # Conquer-Blocks-Journey
 
 ## 📖 Tabla de Contenidos (Navegación interna)
-* [🐍 Fundamentos de Python](#fundamentos-de-python)
+* ## 🐍 Fundamentos de Python
+Documentación técnica sobre las bases del lenguaje y manipulación de datos.
+*   **[📚 Notas: Manipulación de Strings](./NOTAS_STRINGS.md):** Explicación detallada de métodos como `.upper()`, `.lower()` y el uso de f-strings.
+
 * [🟢 Principios SOLID](#principios-solid-s-de-srp)
+
 * ## 📁 Mis Proyectos
 Aquí puedes encontrar los ejercicios prácticos que voy desarrollando durante el máster:
 *   **[🐍 Script de Bienvenida Profesional](./mensaje_bienvenida.py):** Un ejercicio de normalización de datos, limpieza de strings y validación de usuarios con buenas prácticas de Python.
