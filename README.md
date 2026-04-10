@@ -10,7 +10,7 @@ Documentación técnica sobre las bases del lenguaje y manipulación de datos.
 * ## 📁 Mis Proyectos
 Aquí puedes encontrar los ejercicios prácticos que voy desarrollando durante el máster:
 *   **[🚀 Script Bienvenida](./python/mensaje_bienvenida.py):** Un ejercicio de normalización de datos, limpieza de strings y validación de usuarios con buenas prácticas de Python.
-*    [🏦 Proyecto: Casa de Cambios](./python/casa_cambios.py)
+*   **[🏦 Proyecto: Casa de Cambios](./python/casa_cambios.py):** Un script de lógica financiera que aplica operadores aritméticos, cálculo de tasas de gestión (porcentajes) y formateo de precisión decimal para el manejo de divisas.
 ---
 ## 📖 Teoria
 
