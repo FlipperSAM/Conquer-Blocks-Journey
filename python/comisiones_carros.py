@@ -1,8 +1,9 @@
 """
-Módulo: comisiones_carros.py
+Módulo: comisiones_coches.py
 Descripción: Cálculo de comisiones mensuales para vendedores de automóviles.
 Modelos: RBM Serie 1, RMB Serie Plus, RBM Todoterreno.
 """
+
 def calcular_comisiones():
     # 1. Configuración de Precios y Comisiones (Constantes)
     # Serie 1: 20k € al 3%
