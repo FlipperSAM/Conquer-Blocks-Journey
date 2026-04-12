@@ -12,7 +12,7 @@ Aquí puedes encontrar los ejercicios prácticos que voy desarrollando durante e
 *   **[🚀 Script Bienvenida](./python/mensaje_bienvenida.py):** Un ejercicio de normalización de datos, limpieza de strings y validación de usuarios con buenas prácticas de Python.
 *   **[🏦 Proyecto: Casa de Cambios](./python/casa_cambios.py):** Un script de lógica financiera que aplica operadores aritméticos, cálculo de tasas de gestión (porcentajes) y formateo de precisión decimal para el manejo de divisas.
 *   **[🏆 Proyecto: Olimpiadas Skeleton](./python/olimpiadas_skeleton.py):** Un script avanzado de conversión de unidades de tiempo y cálculo de velocidad media aplicado a resultados olímpicos.
-*   **[🚗 Proyecto: Comisión de Automóviles](./python/comisiones_coches.py):** Un script de gestión de ventas que calcula comisiones variables según el modelo de vehículo y el volumen de ventas mensual.
+*   **[🚗 Proyecto: Comisión de Automóviles](./python/comisiones_carros.py):** Un script de gestión de ventas que calcula comisiones variables según el modelo de vehículo y el volumen de ventas mensual.
 
 ---
 ## 📖 Teoria
