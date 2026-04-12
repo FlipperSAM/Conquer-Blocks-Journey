@@ -20,7 +20,7 @@ def calcular_comisiones():
 
     # 2. Entrada de datos y cálculo iterativo
     for i in range(len(NOMBRES)):
-        cantidad = int(input(f"¿Cuántos coches del modelo {NOMBRES[i]} has vendido?: "))
+        cantidad = int(input(f"¿Cuántos carros del modelo {NOMBRES[i]} has vendido?: "))
         
         # Cálculo: (Cantidad * Precio) * Porcentaje de comisión
         comision_modelo = (cantidad * PRECIOS[i]) * COMISIONES[i]
