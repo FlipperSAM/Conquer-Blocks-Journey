@@ -13,6 +13,7 @@ Aquí puedes encontrar los ejercicios prácticos que voy desarrollando durante e
 *   **[🏦 Proyecto: Casa de Cambios](./python/casa_cambios.py):** Un script de lógica financiera que aplica operadores aritméticos, cálculo de tasas de gestión (porcentajes) y formateo de precisión decimal para el manejo de divisas.
 *   **[🏆 Proyecto: Olimpiadas Skeleton](./python/olimpiadas_skeleton.py):** Un script avanzado de conversión de unidades de tiempo y cálculo de velocidad media aplicado a resultados olímpicos.
 *   **[🚗 Proyecto: Comisión de Automóviles](./python/comisiones_carros.py):** Un script de gestión de ventas que calcula comisiones variables según el modelo de vehículo y el volumen de ventas mensual.
+*   **[🍽️ Proyecto: Cuenta de Restaurante](./python/restaurante_cuenta.py):** Un sistema de facturación que utiliza diccionarios para gestionar un menú y generar un ticket de venta detallado.
 
 ---
 ## 📖 Teoria
