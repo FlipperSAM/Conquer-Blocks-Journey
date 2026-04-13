@@ -1,6 +1,6 @@
 ## 🟢 Principios SOLID
 
-El objetivo es crear código que sea fácil de mantener, testear y escalar, algo vital para empresas en España.
+El objetivo es crear código que sea fácil de mantener, testear y escalar, algo vital para las empresas.
 
 ---
 ```python
