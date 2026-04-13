@@ -15,6 +15,7 @@ Aquí puedes encontrar los ejercicios prácticos que voy desarrollando durante e
 *   **[🚗 Proyecto: Comisión de Automóviles](./python/comisiones_carros.py):** Un script de gestión de ventas que calcula comisiones variables según el modelo de vehículo y el volumen de ventas mensual.
 *   **[🍽️ Proyecto: Cuenta de Restaurante](./python/restaurante_cuenta.py):** Un sistema de facturación que utiliza diccionarios para gestionar un menú y generar un ticket de venta detallado.
 *   **[🛡️ Proyecto: Protección de Tarjeta](./python/proteccion_tarjeta.py):** Un script de seguridad que aplica técnicas de enmascaramiento de datos (Data Masking) para ocultar información sensible.
+*   **[🔄 Proyecto: Reordenando Números](./python/reordenando_numeros.py):** Un script que descompone números en sus componentes individuales e implementa la inversión de secuencias mediante slicing avanzado.
 
 ---
 ## 📖 Teoria
