@@ -1,6 +1,6 @@
 # 🔄 Iteración y Slicing en Python
 
-En el desarrollo del software reordenando_numeros, manipular el orden de los datos es una tarea recurrente en el desarrollo de software. En este ejercicio exploramos cómo tratar números como secuencias.
+En el desarrollo del software reordenando numeros, manipular el orden de los datos es una tarea recurrente en el desarrollo de software. En este ejercicio exploramos cómo tratar números como secuencias.
 
 ### Conceptos Clave:
 *   **Iteración de Strings**: En Python, un string es una secuencia. Al usar un bucle `for`, podemos acceder a cada carácter (o cifra) de forma individual.
