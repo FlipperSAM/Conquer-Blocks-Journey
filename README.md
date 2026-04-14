@@ -1,5 +1,5 @@
 # Conquer-Blocks-Journey
-
+hola
 ## 📖 Tabla de Contenidos (Navegación interna)
 * ## 🐍 Fundamentos de Python
 Documentación técnica sobre las bases del lenguaje y manipulación de datos.
