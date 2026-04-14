@@ -11,6 +11,7 @@ Documentación técnica sobre las bases del lenguaje y manipulación de datos.
 Aquí puedes encontrar los ejercicios prácticos que voy desarrollando durante el máster:
 
 *   **[🚀 Script Bienvenida](./python/scripts/mensaje_bienvenida.py):** Un ejercicio de normalización de datos, limpieza de strings y validación de usuarios con buenas prácticas de Python.
+*   **[💰 Proyecto: Calculadora de Ahorros](./python/scripts/calculadora_ahorros.py):** Un sistema financiero completo que proyecta ahorros anuales y analiza la viabilidad económica bajo cambios en la jornada laboral y reducción de gastos.
 *   **[🏦 Proyecto: Casa de Cambios](./python/scripts/casa_cambios.py):** Un script de lógica financiera que aplica operadores aritméticos, cálculo de tasas de gestión (porcentajes) y formateo de precisión decimal para el manejo de divisas.
 *   **[🚗 Proyecto: Comisión de carros](./python/scripts/comisiones_carros.py):** Un script de gestión de ventas que calcula comisiones variables según el modelo de vehículo y el volumen de ventas mensual.
 *   **[🔄 Proyecto: Repetir Caracteres](./python/scripts/duplicador_caracteres.py):** Un script que demuestra el uso de bucles para la transformación de datos y la concatenación dinámica de strings.
