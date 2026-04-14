@@ -80,7 +80,7 @@ Este documento detalla la base teórica y práctica asimilada durante el primer 
 
 ### 2. Strings y sus funciones/métodos
 *   **En mis proyectos:** El script de Protección de Tarjeta y el de Bienvenida.
-*   **Estudio:** Usé **`.lower()`**, **`.upper()`**, **`.title()`** para formatear, y **`.replace()`** para limpiar datos sucios (como los puntos en el nombre). También el Slicing [-4:] para la tarjeta.
+*   **Estudio:** Usé **`.lower()`**, **`.upper()`**, **`.title()`** para formatear, y **`.replace()`** para limpiar datos sucios (como los puntos en el nombre). También el Slicing **`[-4:]`** para la tarjeta.
 
 ### 3. Números y operaciones aritméticas
 *   **En mis proyectos:** La Casa de Cambios y las Olimpiadas.
