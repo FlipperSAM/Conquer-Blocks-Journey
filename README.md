@@ -75,7 +75,7 @@ Este documento detalla la base teórica y práctica asimilada durante el primer 
 # 📚 Teoría Aplicada a tus Proyectos
 
 ### 1. Uso de variables y nomenclatura
-*   **En tus proyectos:** Usamos variables como ingreso_hora, nombre_usuario y constantes en mayúsculas como TASA_CAMBIO.
+*   **En mis proyectos:** Usamos variables como ingreso_hora, nombre_usuario y constantes en mayúsculas como TASA_CAMBIO.
 *   **Estudio:** Aplicaste el Snake Case (nombre_bajo_guion), que es el estándar en Python. Diferenciaste entre variables que cambian y constantes que no.
 
 ### 2. Strings y sus funciones/métodos
