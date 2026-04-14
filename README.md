@@ -106,6 +106,44 @@ Este documento detalla la base teórica y práctica asimilada durante el primer 
 ---
 *Este análisis certifica mi capacidad para transformar conceptos teóricos en soluciones de código escalables y profesionales.*
 
+# ⚖️ Lógica de Control: Test Condicionales y Expresiones Booleanas
+
+En este módulo del máster de **Conquer Blocks**, profundizo en la capacidad del software para evaluar situaciones y tomar decisiones basadas en valores booleanos (**True** / **False**).
+
+---
+
+## 1. 🔄 Asignación vs. Comparación
+*   **Asignación (`=`):** Se utiliza para asociar un valor a una variable.
+    *   Ejemplo: `nombre_usuario = "Juan"`
+*   **Comparación (`==`):** Evalúa si dos valores son iguales, devolviendo un booleano.
+    *   Ejemplo: `nombre_usuario == "Juan"` (Resultado: `True`)
+
+## 2. 🛠️ Operadores de Comparación
+
+| Operador | Significado | Ejemplo |
+| :--- | :--- | :--- |
+| `==` | Igual a | `h == 10` |
+| `!=` | Diferente de | `h != 10` |
+| `>` | Mayor que | `h > 0` |
+| `<` | Menor que | `h < 0` |
+| `>=` | Mayor o igual que | `h >= 0` |
+| `<=` | Menor o igual que | `h <= 0` |
+
+## 3. 🧠 Testeos Condicionales Avanzados
+*   **Case Sensitivity:** Las comparaciones de strings son sensibles a mayúsculas. Para una comparación profesional, usamos `.lower()` para hacerla *case insensitive*.
+*   **Pertenencia:** Podemos comprobar si un string está contenido en otro.
+
+## 4. ⛓️ Concatenación de Condiciones (Lógica Múltiple)
+*   **Operador `AND`:** Todas las condiciones deben ser verdaderas para que el resultado sea `True`.
+    *   *Ejemplo:* Buscar un usuario llamado "Juan" **Y** que sea mayor de 21 años.
+*   **Operador `OR`:** Basta con que una de las condiciones sea verdadera para que el resultado sea `True`.
+    *   *Ejemplo:* Acceso a un local si eres mayor de edad **O** vas acompañado de un tutor.
+
+## 5. 🏗️ Estructura IF Statement
+Es la implementación práctica de la lógica "Si-Entonces". Permite realizar un seguimiento del estado de nuestro programa y gestionar permisos o procesos de ejecución.
+
+> **Habilidad Profesional:** El dominio de las expresiones booleanas es fundamental para el desarrollo de Backend, permitiendo crear flujos de trabajo seguros y validados.
+
 
 # 🐍 Python Avanzado y Principios SOLID
 
