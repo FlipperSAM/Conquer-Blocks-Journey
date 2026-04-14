@@ -3,6 +3,7 @@
 En este ejercicio practiqué la **limpieza de strings** y el control de flujo. 
 
 **Conceptos aplicados:**
+*   `.upper(): Convierte todo el texto a MAYÚSCULAS. Útil para destacar mensajes importantes.
 *   `.replace()`: Para eliminar caracteres especiales (como `.` o `#`).
 *   `.lower()`: Para estandarizar la entrada y evitar errores por mayúsculas/minúsculas.
 *   `.title()`: Para dar un formato profesional al nombre en la salida.
