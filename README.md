@@ -62,6 +62,49 @@ En el desarrollo de software moderno, la terminal no es solo una herramienta, es
 > "Un buen desarrollador rara vez despega las manos del teclado." 
 > *Notas de aprendizaje en Conquer Blocks enfocadas en estándares Linux.*
 
+
+# 🐍 Python
+
+---
+
+# 📑 Análisis Técnico: Fundamentos y Aplicación en Python
+
+Este documento detalla la base teórica y práctica asimilada durante el primer bloque del **Máster en Conquer Blocks**, vinculando cada concepto con los proyectos reales desarrollados en este repositorio.
+
+---
+
+## 1. 🏗️ Uso de Variables y Nomenclatura
+*   **Implementación:** Uso de variables dinámicas (`ingreso_hora`, `nombre_usuario`) y constantes inmutables en mayúsculas (`TASA_CAMBIO`, `DISTANCIA_PISTA`).
+*   **Estándar Profesional:** Aplicación estricta de **Snake Case** (estándar PEP 8), asegurando que el código sea legible y mantenible según los requisitos de la industria tecnológica europea.
+
+## 2. 🔤 Manipulación de Strings y Métodos de Cadena
+*   **Implementación:** Proyectos de [Protección de Tarjeta](../scripts/proteccion_tarjeta.py) y [Bienvenida](../scripts/mensaje_bienvenida.py).
+*   **Habilidades:** Uso avanzado de métodos `.lower()`, `.upper()`, `.title()` para normalización de datos y `.replace()` para limpieza de entradas. Dominio de **Slicing** (`[-4:]`) para la protección de datos sensibles.
+
+## 3. 🔢 Lógica Matemática y Aritmética
+*   **Implementación:** Proyectos de [Casa de Cambios](../scripts/casa_cambios.py) y [Olimpiadas](../scripts/olimpiadas_skeleton.py).
+*   **Habilidades:** Aplicación de operadores aritméticos (`*`, `/`, `-`) para lógica de negocio, cálculos de porcentajes (comisiones) y conversiones de unidades físicas.
+
+## 4. 🔀 Interpolación de Datos (Números + Strings)
+*   **Implementación:** Presentación de resultados en todos los módulos.
+*   **Habilidades:** Dominio de las **f-strings** (formatted string literals). Es la técnica más eficiente y moderna en Python para integrar variables numéricas en mensajes de salida sin errores de tipado.
+
+## 5. 📥 Interacción y Entrada de Datos (CLI)
+*   **Implementación:** Uso transversal del comando `input()`.
+*   **Habilidades:** Creación de programas interactivos mediante la captura de datos por consola, permitiendo que el software responda a inputs del usuario en tiempo real.
+
+## 6. ⚖️ Conversión de Tipos (Casting)
+*   **Implementación:** [Calculadora de Ahorros](../scripts/calculadora_ahorros.py) y [Olimpiadas](../scripts/olimpiadas_skeleton.py).
+*   **Habilidades:** Transformación de datos mediante `float()` e `int()`. Comprensión de que el input de usuario es siempre `string` y requiere conversión para operaciones lógicas/matemáticas.
+
+## 7. 📝 Documentación y Clean Code
+*   **Implementación:** Uso de **Docstrings** (`"""`) y comentarios de línea (`#`).
+*   **Habilidades:** Capacidad para documentar el "qué" y el "por qué" de la lógica. Un código bien comentado reduce la deuda técnica y facilita el trabajo en equipo en entornos corporativos.
+
+---
+*Este análisis certifica mi capacidad para transformar conceptos teóricos en soluciones de código escalables y profesionales.*
+
+
 # 🐍 Python Avanzado y Principios SOLID
 
 Este documento forma parte de mi especialización en el **Máster de Conquer Blocks**. Aquí documento conceptos avanzados de Python y la implementación de arquitectura limpia.
