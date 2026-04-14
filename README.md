@@ -73,7 +73,7 @@ Este documento detalla la base teórica y práctica asimilada durante el primer 
 
 ---
 
-# 📚 Teoría Aplicada a tus Proyectos
+# 📚 Teoría Aplicada a mis Proyectos
 
 ### 1. Uso de variables y nomenclatura
 *   **En mis proyectos:** Usé variables como **`ingreso_hora`**, **`nombre_usuario`** y constantes en mayúsculas como **`TASA_CAMBIO`** 
@@ -85,7 +85,7 @@ Este documento detalla la base teórica y práctica asimilada durante el primer 
 
 ### 3. Números y operaciones aritméticas
 *   **En mis proyectos:** La Casa de Cambios y las Olimpiadas.
-*   **Estudio:** Usaste * (multiplicación), / (división) y - (resta). Practicaste la lógica de porcentajes (comisiones) y conversiones físicas (velocidad).
+*   **Estudio:** Usé **`*`** (multiplicación), **`/`** (división) y **`-`** (resta). Apliqué la lógica de porcentajes (comisiones) y conversiones físicas (velocidad).
 
 ### 4. Combinar números y strings
 *   **En mis proyectos:** En todos los print() finales.
