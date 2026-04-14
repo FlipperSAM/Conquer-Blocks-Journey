@@ -72,33 +72,35 @@ Este documento detalla la base teórica y práctica asimilada durante el primer 
 
 ---
 
-## 1. 🏗️ Uso de Variables y Nomenclatura
-*   **Implementación:** Uso de variables dinámicas (`ingreso_hora`, `nombre_usuario`) y constantes inmutables en mayúsculas (`TASA_CAMBIO`, `DISTANCIA_PISTA`).
-*   **Estándar Profesional:** Aplicación estricta de **Snake Case** (estándar PEP 8), asegurando que el código sea legible y mantenible según los requisitos de la industria tecnológica europea.
+# 📚 Teoría Aplicada a tus Proyectos
 
-## 2. 🔤 Manipulación de Strings y Métodos de Cadena
-*   **Implementación:** Proyectos de [Protección de Tarjeta](../scripts/proteccion_tarjeta.py) y [Bienvenida](../scripts/mensaje_bienvenida.py).
-*   **Habilidades:** Uso avanzado de métodos `.lower()`, `.upper()`, `.title()` para normalización de datos y `.replace()` para limpieza de entradas. Dominio de **Slicing** (`[-4:]`) para la protección de datos sensibles.
+### 1. Uso de variables y nomenclatura
+*   **En tus proyectos:** Usamos variables como ingreso_hora, nombre_usuario y constantes en mayúsculas como TASA_CAMBIO.
+*   **Estudio:** Aplicaste el Snake Case (nombre_bajo_guion), que es el estándar en Python. Diferenciaste entre variables que cambian y constantes que no.
 
-## 3. 🔢 Lógica Matemática y Aritmética
-*   **Implementación:** Proyectos de [Casa de Cambios](../scripts/casa_cambios.py) y [Olimpiadas](../scripts/olimpiadas_skeleton.py).
-*   **Habilidades:** Aplicación de operadores aritméticos (`*`, `/`, `-`) para lógica de negocio, cálculos de porcentajes (comisiones) y conversiones de unidades físicas.
+### 2. Strings y sus funciones/métodos
+*   **En mis proyectos:** El script de Protección de Tarjeta y el de Bienvenida.
+*   **Estudio:** Usaste .lower(), .upper(), .title() para formatear, y .replace() para limpiar datos sucios (como los puntos en el nombre). También el Slicing [-4:] para la tarjeta.
 
-## 4. 🔀 Interpolación de Datos (Números + Strings)
-*   **Implementación:** Presentación de resultados en todos los módulos.
-*   **Habilidades:** Dominio de las **f-strings** (formatted string literals). Es la técnica más eficiente y moderna en Python para integrar variables numéricas en mensajes de salida sin errores de tipado.
+### 3. Números y operaciones aritméticas
+*   **En mis proyectos:** La Casa de Cambios y las Olimpiadas.
+*   **Estudio:** Usaste * (multiplicación), / (división) y - (resta). Practicaste la lógica de porcentajes (comisiones) y conversiones físicas (velocidad).
 
-## 5. 📥 Interacción y Entrada de Datos (CLI)
-*   **Implementación:** Uso transversal del comando `input()`.
-*   **Habilidades:** Creación de programas interactivos mediante la captura de datos por consola, permitiendo que el software responda a inputs del usuario en tiempo real.
+### 4. Combinar números y strings
+*   **En mis proyectos:** En todos los print() finales.
+*   **Estudio:** Dominaste las f-strings (f"Hola {nombre}, tienes {ahorro}€"). Es la forma más profesional de mezclar texto con resultados numéricos sin que el programa dé error.
 
-## 6. ⚖️ Conversión de Tipos (Casting)
-*   **Implementación:** [Calculadora de Ahorros](../scripts/calculadora_ahorros.py) y [Olimpiadas](../scripts/olimpiadas_skeleton.py).
-*   **Habilidades:** Transformación de datos mediante `float()` e `int()`. Comprensión de que el input de usuario es siempre `string` y requiere conversión para operaciones lógicas/matemáticas.
+### 5. Leer valores de entrada
+*   **En mis proyectos:** El uso constante de input().
+*   **Estudio:** Entendiste que todo lo que entra por input() es inicialmente un String. Sin este comando, tus programas no serían interactivos.
 
-## 7. 📝 Documentación y Clean Code
-*   **Implementación:** Uso de **Docstrings** (`"""`) y comentarios de línea (`#`).
-*   **Habilidades:** Capacidad para documentar el "qué" y el "por qué" de la lógica. Un código bien comentado reduce la deuda técnica y facilita el trabajo en equipo en entornos corporativos.
+### 6. Conversión entre tipos de datos (Casting)
+*   **En mis proyectos:** Calculadora de Ahorros y Olimpiadas.
+*   **Estudio:** Usaste float() para dinero y int() para minutos/segundos. Aprendiste que para operar matemáticamente con un input(), primero debes convertirlo a número.
+
+### 7. Uso de los comentarios
+*   **En mis proyectos:** Los encabezados con """ (Docstrings) y los # explicando pasos.
+*   **Estudio:** Documentaste el "qué" y el "por qué" de tu código. Un código sin comentarios es un código "huérfano" que nadie quiere mantener en una empresa.
 
 ---
 *Este análisis certifica mi capacidad para transformar conceptos teóricos en soluciones de código escalables y profesionales.*
