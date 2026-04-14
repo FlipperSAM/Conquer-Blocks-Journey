@@ -76,11 +76,11 @@ Este documento detalla la base teórica y práctica asimilada durante el primer 
 
 ### 1. Uso de variables y nomenclatura
 *   **En mis proyectos:** Usé variables como **`ingreso_hora`**, **`nombre_usuario`** y constantes en mayúsculas como **`TASA_CAMBIO`** 
-*   **Estudio:** Aplicaste el Snake Case (nombre_bajo_guion), que es el estándar en Python. Diferenciaste entre variables que cambian y constantes que no.
+*   **Estudio:** Apliqué el Snake Case **`nombre_bajo_guion`**, que es el estándar en Python. Diferencie entre variables que cambian y constantes que no.
 
 ### 2. Strings y sus funciones/métodos
 *   **En mis proyectos:** El script de Protección de Tarjeta y el de Bienvenida.
-*   **Estudio:** Usaste .lower(), .upper(), .title() para formatear, y .replace() para limpiar datos sucios (como los puntos en el nombre). También el Slicing [-4:] para la tarjeta.
+*   **Estudio:** Usé **`.lower()`**, **`.upper()`**, **`.title()`** para formatear, y **`.replace()`** para limpiar datos sucios (como los puntos en el nombre). También el Slicing [-4:] para la tarjeta.
 
 ### 3. Números y operaciones aritméticas
 *   **En mis proyectos:** La Casa de Cambios y las Olimpiadas.
