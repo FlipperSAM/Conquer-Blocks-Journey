@@ -88,20 +88,20 @@ Este documento detalla la base teórica y práctica asimilada durante el primer 
 *   **Estudio:** Usé **`*`** (multiplicación), **`/`** (división) y **`-`** (resta). Apliqué la lógica de porcentajes (comisiones) y conversiones físicas (velocidad).
 
 ### 4. Combinar números y strings
-*   **En mis proyectos:** En todos los print() finales.
+*   **En mis proyectos:** En todos los **`print()`** finales.
 *   **Estudio:** Dominé las **`f-strings`** **`(f"Hola {nombre}, tienes {ahorro}€")`**. Es la forma más profesional de mezclar texto con resultados numéricos sin que el programa dé error.
 
 ### 5. Leer valores de entrada
-*   **En mis proyectos:** El uso constante de **`input()´**.
+*   **En mis proyectos:** El uso constante de **`input()`**.
 *   **Estudio:** Entendí que todo lo que entra por **`input()`** es inicialmente un String. Sin este comando, mis programas no serían interactivos.
 
 ### 6. Conversión entre tipos de datos (Casting)
 *   **En mis proyectos:** Calculadora de Ahorros y Olimpiadas.
-*   **Estudio:** Usé **`float()`** para dinero y **`int()`** para minutos/segundos. Aprendí que para operar matemáticamente con un **`input()`**, primero se debe convertir a número.
+*   **Estudio:** Usé **`float()`** para dinero e **`int()`** para minutos/segundos. Aprendí que para operar matemáticamente con un **`input()`**, primero se debe convertir a número.
 
 ### 7. Uso de los comentarios
-*   **En mis proyectos:** Los encabezados con """ (Docstrings) y los # explicando pasos.
-*   **Estudio:** Documentaste el "qué" y el "por qué" de tu código. Un código sin comentarios es un código "huérfano" que nadie quiere mantener en una empresa.
+*   **En mis proyectos:** Los encabezados con **`"""`** (Docstrings) y los **`#`** estos se usan para explicar pasos a otros desarrolladores que vean el código desde el backend.
+*   **Estudio:** Documenté el "qué" y el "por qué" del código. Un código sin comentarios es un código "huérfano" que nadie quiere mantener en una empresa.
 
 ---
 *Este análisis certifica mi capacidad para transformar conceptos teóricos en soluciones de código escalables y profesionales.*
