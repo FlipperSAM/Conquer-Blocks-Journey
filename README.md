@@ -62,10 +62,9 @@ En el desarrollo de software moderno, la terminal no es solo una herramienta, es
 > "Un buen desarrollador rara vez despega las manos del teclado." 
 > *Notas de aprendizaje en Conquer Blocks enfocadas en estándares Linux.*
 
+---
 
 # 🐍 Python
-
----
 
 # 📑 Análisis Técnico: Fundamentos y Aplicación en Python
 
