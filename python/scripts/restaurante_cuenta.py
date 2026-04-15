@@ -7,7 +7,6 @@ Estructura: Uso de diccionarios para gestión de precios.
 def calcular_cuenta():
     # 1. Menú organizado en un Diccionario (Clave: Platillo, Valor: Precio)
     menu = {
-    
         "Ensalada mixta": 12.0,
         "Sopa de pescado": 10.0,
         "Dorada al horno": 18.0,
