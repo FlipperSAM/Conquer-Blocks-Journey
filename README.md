@@ -22,7 +22,7 @@ Aquí puedes encontrar los ejercicios prácticos que voy desarrollando durante e
 *   **[🍽️ Proyecto: Cuenta de Restaurante](./python/scripts/restaurante_cuenta.py):** Un sistema de facturación que utiliza diccionarios para gestionar un menú y generar un ticket de venta detallado.
 *   **[⚖️ Análisis: Lógica Condicional](./python/docs/NOTAS_CONDICIONALES_PRO.md):** Resumen de investigación sobre estructuras de decisión y operadores lógicos.
 *   **[🚀 Script: Test de Lógica](./python/scripts/test_condicionales_pro.py):** Implementación práctica de comparaciones y operadores booleanos.
-
+*   **[👤 Proyecto: Gestión de Usuarios IF](./python/scripts/gestion_usuarios_if.py):** Un script de autenticación básica que utiliza condicionales para dar bienvenidas personalizadas tras normalizar la entrada del usuario.
 
 ---
 ## 📖 Teoria
