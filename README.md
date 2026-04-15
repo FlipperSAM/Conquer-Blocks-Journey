@@ -20,7 +20,7 @@ Aquí puedes encontrar los ejercicios prácticos que voy desarrollando durante e
 *   **[🛡️ Proyecto: Protección de Tarjeta](./python/scripts/proteccion_tarjeta.py):** Un script de seguridad que aplica técnicas de enmascaramiento de datos (Data Masking) para ocultar información sensible.
 *   **[🔄 Proyecto: Reordenando Números](./python/scripts/reordenando_numeros.py):** Un script que descompone números en sus componentes individuales e implementa la inversión de secuencias mediante slicing avanzado.
 *   **[🍽️ Proyecto: Cuenta de Restaurante](./python/scripts/restaurante_cuenta.py):** Un sistema de facturación que utiliza diccionarios para gestionar un menú y generar un ticket de venta detallado.
-*   **[⚖️ Análisis: Lógica Condicional](./python/docs/NOTAS_CONDICIONALES_RESUMEN.md):** Resumen de investigación sobre estructuras de decisión y operadores lógicos.
+*   **[⚖️ Análisis: Lógica Condicional](./python/docs/NOTAS_CONDICIONALES_PRO.md):** Resumen de investigación sobre estructuras de decisión y operadores lógicos.
 *   **[🚀 Script: Test de Lógica](./python/scripts/test_condicionales_pro.py):** Implementación práctica de comparaciones y operadores booleanos.
 
 
