@@ -1,10 +1,20 @@
-# ⚖️ Lógica de Control y Expresiones Booleanas
+# ⚖️ Investigación: Lógica de Control y Sentencias Condicionales
 
-En el desarrollo de backend profesional, la toma de decisiones es el motor de la aplicación. En este módulo aplico la lógica de comparación y operadores booleanos.
+Resumen técnico basado en la investigación de estructuras de decisión en Python.
 
-### Conceptos Clave:
-*   **AND (`and`):** Requiere que todas las condiciones sean verdaderas (ej. Pasaporte Y Mayor de edad).
-*   **OR (`or`):** Basta con que una condición sea verdadera (ej. Mayor de edad O Menor acompañado).
-*   **NOT (`not`):** Invierte el valor booleano (útil para detectar si NO lleva objetos prohibidos).
+### 1. El Concepto de Flujo de Control
+El flujo de ejecución de un programa es lineal por defecto. Las sentencias condicionales permiten **romper esa linealidad**, decidiendo qué bloques de código ejecutar según se cumplan o no ciertas premisas.
 
-> **Estándar de Industria:** El uso correcto de operadores lógicos reduce la complejidad del código y mejora la seguridad de las validaciones.
+### 2. Estructura `if-elif-else`
+*   **`if`**: La condición inicial. Si es `True`, se ejecuta su bloque.
+*   **`elif` (Else If)**: Permite evaluar múltiples condiciones adicionales si la anterior fue falsa. Es más eficiente que usar muchos `if` independientes.
+*   **`else`**: El bloque por defecto. Se ejecuta solo si **todas** las condiciones anteriores fueron falsas.
+
+### 3. Operadores de Comparación y Lógica
+*   **Comparación:** `==` (Igualdad), `!=` (Desigualdad), `>`, `<`, `>=`, `<=`.
+*   **Lógicos:** 
+    *   `and`: Requiere que ambos lados sean `True`.
+    *   `or`: Requiere que al menos un lado sea `True`.
+    *   `not`: Invierte el valor de verdad.
+
+> **💡 Dato Pro:** En Python, la **indentación** (los 4 espacios) no es estética, es obligatoria para definir qué código pertenece a cada condicional.
