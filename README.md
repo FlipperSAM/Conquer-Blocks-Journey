@@ -147,6 +147,11 @@ Es la implementación práctica de la lógica "Si-Entonces". Permite realizar un
 
 > **Habilidad Profesional:** El dominio de las expresiones booleanas es fundamental para el desarrollo de Backend, permitiendo crear flujos de trabajo seguros y validados.
 
+## 6. 🌊 Evaluación en Cascada (IF-ELIF-ELSE)
+*   **Orden de Prioridad:** Aprendí que Python evalúa las condiciones de arriba hacia abajo. Al usar `elif`, el programa se detiene en cuanto encuentra la primera coincidencia verdadera, optimizando el uso de recursos.
+*   **Validación Defensiva:** Uso de `else` como clausura de seguridad para manejar casos no previstos o entradas inválidas del usuario.
+
+---
 
 # 🐍 Python Avanzado y Principios SOLID
 
