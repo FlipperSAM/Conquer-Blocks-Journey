@@ -23,6 +23,7 @@ Aquí puedes encontrar los ejercicios prácticos que voy desarrollando durante e
 *   **[⚖️ Análisis: Lógica Condicional](./python/docs/NOTAS_CONDICIONALES_PRO.md):** Resumen de investigación sobre estructuras de decisión y operadores lógicos.
 *   **[🚀 Script: Test de Lógica](./python/scripts/test_condicionales_pro.py):** Implementación práctica de comparaciones y operadores booleanos.
 *   **[👤 Proyecto: Gestión de Usuarios IF](./python/scripts/gestion_usuarios_if.py):** Un script de autenticación básica que utiliza condicionales para dar bienvenidas personalizadas tras normalizar la entrada del usuario.
+*   **[🎓 Proyecto: Becas Estudiantes](./python/scripts/becas_estudiantes.py):** Un script de validación que utiliza operadores lógicos y comparaciones de rango para determinar la elegibilidad de becas académicas.
 
 ---
 ## 📖 Teoria
