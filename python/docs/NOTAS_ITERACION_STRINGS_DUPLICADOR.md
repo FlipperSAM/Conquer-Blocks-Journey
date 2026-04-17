@@ -1,4 +1,4 @@
-# 🔄 Iteración y Transformación de Strings
+# Iteración y Transformación de Strings
 
 En este proyecto he aplicado el concepto de **iteración** para transformar datos carácter por carácter, una técnica esencial para el procesamiento de información.
 
