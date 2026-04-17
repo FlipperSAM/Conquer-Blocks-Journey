@@ -1,4 +1,4 @@
-# 📚 Lógica de Validación: Becas de Excelencia
+# Lógica de Validación: Becas de Excelencia
 
 En este proyecto implemento un sistema de filtros múltiples utilizando **operadores lógicos**, una técnica crítica para procesos de selección automatizados.
 
