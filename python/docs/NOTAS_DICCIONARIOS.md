@@ -1,4 +1,4 @@
-# 📚 Estructuras de Datos: Diccionarios en Python (restaurante_cuenta.py)
+# Estructuras de Datos: Diccionarios en Python (restaurante_cuenta.py)
 
 En el proyecto del **Restaurante**, he evolucionado el uso de listas hacia **Diccionarios (`dict`)**, una herramienta fundamental para el mapeo de datos.
 
