@@ -1,25 +1,25 @@
 # Conquer-Blocks-Journey
 
-## 📖 Tabla de Contenidos (Navegación interna)
+## Tabla de Contenidos (Navegación interna)
 * ## 🐍 Fundamentos de Python
 Documentación técnica sobre las bases del lenguaje y manipulación de datos.
 *   **[Ver notas](./python/docs/NOTAS_STRINGS_BIENVENIDA.md):** Explicación detallada de métodos como `.upper()`, `.lower()` y el uso de f-strings.
 
 *   **[Principios SOLID](./solid/NOTAS_SOLID.md)**  
 
-## 📁 Mis Proyectos
+## Mis Proyectos
 Aquí puedes encontrar los ejercicios prácticos que voy desarrollando durante el máster:
 
 *   **[Script Bienvenida](./python/scripts/mensaje_bienvenida.py):** Un ejercicio de normalización de datos, limpieza de strings y validación de usuarios con buenas prácticas de Python.
-*   **[💰 Proyecto: Calculadora de Ahorros](./python/scripts/calculadora_ahorros.py):** Un sistema financiero completo que proyecta ahorros anuales y analiza la viabilidad económica bajo cambios en la jornada laboral y reducción de gastos.
-*   **[🏦 Proyecto: Casa de Cambios](./python/scripts/casa_cambios.py):** Un script de lógica financiera que aplica operadores aritméticos, cálculo de tasas de gestión (porcentajes) y formateo de precisión decimal para el manejo de divisas.
-*   **[🚗 Proyecto: Comisión de carros](./python/scripts/comisiones_carros.py):** Un script de gestión de ventas que calcula comisiones variables según el modelo de vehículo y el volumen de ventas mensual.
-*   **[🔄 Proyecto: Repetir Caracteres](./python/scripts/duplicador_caracteres.py):** Un script que demuestra el uso de bucles para la transformación de datos y la concatenación dinámica de strings.
-*   **[🚀 Script Bienvenida](./python/scripts/mensaje_bienvenida.py):** Un ejercicio de procesamiento avanzado de strings que implementa normalización de datos mediante métodos nativos (`.upper()`, `.lower()`, `.title()`), limpieza de caracteres especiales y uso de f-strings.
-*   **[🏆 Proyecto: Olimpiadas Skeleton](./python/scripts/olimpiadas_skeleton.py):** Un script avanzado de conversión de unidades de tiempo y cálculo de velocidad media aplicado a resultados olímpicos.
-*   **[🛡️ Proyecto: Protección de Tarjeta](./python/scripts/proteccion_tarjeta.py):** Un script de seguridad que aplica técnicas de enmascaramiento de datos (Data Masking) para ocultar información sensible.
-*   **[🔄 Proyecto: Reordenando Números](./python/scripts/reordenando_numeros.py):** Un script que descompone números en sus componentes individuales e implementa la inversión de secuencias mediante slicing avanzado.
-*   **[🍽️ Proyecto: Cuenta de Restaurante](./python/scripts/restaurante_cuenta.py):** Un sistema de facturación que utiliza diccionarios para gestionar un menú y generar un ticket de venta detallado.
+*   **[Proyecto: Calculadora de Ahorros](./python/scripts/calculadora_ahorros.py):** Un sistema financiero completo que proyecta ahorros anuales y analiza la viabilidad económica bajo cambios en la jornada laboral y reducción de gastos.
+*   **[Proyecto: Casa de Cambios](./python/scripts/casa_cambios.py):** Un script de lógica financiera que aplica operadores aritméticos, cálculo de tasas de gestión (porcentajes) y formateo de precisión decimal para el manejo de divisas.
+*   **[Proyecto: Comisión de carros](./python/scripts/comisiones_carros.py):** Un script de gestión de ventas que calcula comisiones variables según el modelo de vehículo y el volumen de ventas mensual.
+*   **[Proyecto: Repetir Caracteres](./python/scripts/duplicador_caracteres.py):** Un script que demuestra el uso de bucles para la transformación de datos y la concatenación dinámica de strings.
+*   **[Script Bienvenida](./python/scripts/mensaje_bienvenida.py):** Un ejercicio de procesamiento avanzado de strings que implementa normalización de datos mediante métodos nativos (`.upper()`, `.lower()`, `.title()`), limpieza de caracteres especiales y uso de f-strings.
+*   **[Proyecto: Olimpiadas Skeleton](./python/scripts/olimpiadas_skeleton.py):** Un script avanzado de conversión de unidades de tiempo y cálculo de velocidad media aplicado a resultados olímpicos.
+*   **[Proyecto: Protección de Tarjeta](./python/scripts/proteccion_tarjeta.py):** Un script de seguridad que aplica técnicas de enmascaramiento de datos (Data Masking) para ocultar información sensible.
+*   **[Proyecto: Reordenando Números](./python/scripts/reordenando_numeros.py):** Un script que descompone números en sus componentes individuales e implementa la inversión de secuencias mediante slicing avanzado.
+*   **[Proyecto: Cuenta de Restaurante](./python/scripts/restaurante_cuenta.py):** Un sistema de facturación que utiliza diccionarios para gestionar un menú y generar un ticket de venta detallado.
 *   **[Análisis: Lógica Condicional](./python/docs/NOTAS_CONDICIONALES_PRO.md):** Resumen de investigación sobre estructuras de decisión y operadores lógicos.
 *   **[Script: Test de Lógica](./python/scripts/test_condicionales_pro.py):** Implementación práctica de comparaciones y operadores booleanos.
 *   **[Proyecto: Gestión de Usuarios IF](./python/scripts/gestion_usuarios_if.py):** Un script de autenticación básica que utiliza condicionales para dar bienvenidas personalizadas tras normalizar la entrada del usuario.
@@ -30,15 +30,15 @@ Aquí puedes encontrar los ejercicios prácticos que voy desarrollando durante e
 
 
 ---
-## 📖 Teoria
+## Teoria
 
-# 💻 Dominio de la Terminal y Linux
+#  Dominio de la Terminal y Linux
 
 En el desarrollo de software moderno, la terminal no es solo una herramienta, es el entorno de trabajo principal. Este documento resume los comandos esenciales que utilizo para gestionar proyectos y sistemas de archivos de forma eficiente.
 
 ---
 
-## 📂 Gestión de Archivos y Navegación
+## Gestión de Archivos y Navegación
 
 | Comando | Descripción | Uso Profesional |
 | :--- | :--- | :--- |
@@ -50,7 +50,7 @@ En el desarrollo de software moderno, la terminal no es solo una herramienta, es
 
 ---
 
-## 🛠️ Manipulación y Visualización de Datos
+## Manipulación y Visualización de Datos
 
 *   **`cat / head / tail`**: Fundamentales para leer logs de errores o previsualizar archivos sin abrirlos en un editor pesado.
 *   **`mv` (Move)**: Se utiliza tanto para mover archivos como para **renombrarlos**.
@@ -59,7 +59,7 @@ En el desarrollo de software moderno, la terminal no es solo una herramienta, es
 
 ---
 
-## ⚡ Comandos de Poder y Sistema
+##  Comandos de Poder y Sistema
 
 *   **`sudo`**: Ejecución con privilegios de administrador. Vital para instalaciones de software.
 *   **`grep`**: El buscador universal. Permite encontrar una palabra específica dentro de cientos de archivos.
@@ -74,13 +74,13 @@ En el desarrollo de software moderno, la terminal no es solo una herramienta, es
 ---
 # 🐍 Python
 
-# 📑 Análisis Técnico: Fundamentos y Aplicación en Python
+# Análisis Técnico: Fundamentos y Aplicación en Python
 
 Este documento detalla la base teórica y práctica asimilada durante el primer bloque del **Máster en Conquer Blocks**, vinculando cada concepto con los proyectos reales desarrollados en este repositorio.
 
 ---
 
-# 📚 Teoría Aplicada a mis Proyectos
+# Teoría Aplicada a mis Proyectos
 
 ### 1. Uso de variables y nomenclatura
 *   **En mis proyectos:** Usé variables como **`ingreso_hora`**, **`nombre_usuario`** y constantes en mayúsculas como **`TASA_CAMBIO`** 
@@ -113,19 +113,19 @@ Este documento detalla la base teórica y práctica asimilada durante el primer 
 ---
 *Este análisis certifica mi capacidad para transformar conceptos teóricos en soluciones de código escalables y profesionales.*
 
-# ⚖️ Lógica de Control: Test Condicionales y Expresiones Booleanas
+# Lógica de Control: Test Condicionales y Expresiones Booleanas
 
 En este módulo del máster de **Conquer Blocks**, profundizo en la capacidad del software para evaluar situaciones y tomar decisiones basadas en valores booleanos (**True** / **False**).
 
 ---
 
-## 1. 🔄 Asignación vs. Comparación
+## 1. Asignación vs. Comparación
 *   **Asignación (`=`):** Se utiliza para asociar un valor a una variable.
     *   Ejemplo: `nombre_usuario = "Juan"`
 *   **Comparación (`==`):** Evalúa si dos valores son iguales, devolviendo un booleano.
     *   Ejemplo: `nombre_usuario == "Juan"` (Resultado: `True`)
 
-## 2. 🛠️ Operadores de Comparación
+## 2. Operadores de Comparación
 
 | Operador | Significado | Ejemplo |
 | :--- | :--- | :--- |
@@ -136,7 +136,7 @@ En este módulo del máster de **Conquer Blocks**, profundizo en la capacidad de
 | `>=` | Mayor o igual que | `h >= 0` |
 | `<=` | Menor o igual que | `h <= 0` |
 
-## 3. 🧠 Testeos Condicionales Avanzados
+## 3. Testeos Condicionales Avanzados
 *   **Case Sensitivity:** Las comparaciones de strings son sensibles a mayúsculas. Para una comparación profesional, usamos `.lower()` para hacerla *case insensitive*.
 *   **Pertenencia:** Podemos comprobar si un string está contenido en otro.
 
@@ -146,16 +146,16 @@ En este módulo del máster de **Conquer Blocks**, profundizo en la capacidad de
 *   **Operador `OR`:** Basta con que una de las condiciones sea verdadera para que el resultado sea `True`.
     *   *Ejemplo:* Acceso a un local si eres mayor de edad **O** vas acompañado de un tutor.
 
-## 5. 🏗️ Estructura IF Statement
+## 5. Estructura IF Statement
 Es la implementación práctica de la lógica "Si-Entonces". Permite realizar un seguimiento del estado de nuestro programa y gestionar permisos o procesos de ejecución.
 
 > **Habilidad Profesional:** El dominio de las expresiones booleanas es fundamental para el desarrollo de Backend, permitiendo crear flujos de trabajo seguros y validados.
 
-## 6. 🌊 Evaluación en Cascada (IF-ELIF-ELSE)
+## 6. Evaluación en Cascada (IF-ELIF-ELSE)
 *   **Orden de Prioridad:** Aprendí que Python evalúa las condiciones de arriba hacia abajo. Al usar `elif`, el programa se detiene en cuanto encuentra la primera coincidencia verdadera, optimizando el uso de recursos.
 *   **Validación Defensiva:** Uso de `else` como clausura de seguridad para manejar casos no previstos o entradas inválidas del usuario.
 
-## 📦 Estructuras de Datos: Listas y Colecciones (Parte 1)
+##  Estructuras de Datos: Listas y Colecciones (Parte 1)
 
 En esta etapa del máster, comienzo a trabajar con **colecciones de datos**, permitiendo almacenar y manipular múltiples valores bajo un mismo identificador.
 
@@ -196,16 +196,16 @@ Optimización de creación de listas en una sola línea:
 ```python
 cuadrados_pares = [x**2 for x in range(10) if x % 2 == 0]
 ```
-# 3. 🚫 Manejo Progresivo de Errores (Excepciones)
+# 3. Manejo Progresivo de Errores (Excepciones)
 Fundamental para que una aplicación no "explote" en producción:
 ```python
 try:
     divisor = int(input("Introduce un divisor: "))
     print(10 / divisor)
 except ZeroDivisionError:
-    print("❌ Error: No se puede dividir por cero.")
+    print(" Error: No se puede dividir por cero.")
 except ValueError:
-    print("❌ Error: Debes ingresar un número válido.")
+    print(" Error: Debes ingresar un número válido.")
 ```
 ---
 
@@ -213,5 +213,5 @@ except ValueError:
 Estoy formándome en [Conquer Blocks](https://conquerblocks.com), una academia de alto rendimiento enfocada en tecnologías modernas y buenas prácticas de programación.
 
 
-📍 Actualmente cursando el Máster en Conquer Blocks con el objetivo de especializarme en el mercado tecnológico español. Enfocado en Clean Code (SOLID) y arquitectura escalable.
+Actualmente cursando el Máster en Conquer Blocks con el objetivo de especializarme en el mercado tecnológico español. Enfocado en Clean Code (SOLID) y arquitectura escalable.
 Este repositorio es mi diario de aprendizaje mientras curso el Máster en Desarrollo Full Stack en Conquer Blocks. Aquí comparto mis propios resúmenes, lógica y soluciones a retos técnicos, respetando siempre los materiales privados de la academia.
