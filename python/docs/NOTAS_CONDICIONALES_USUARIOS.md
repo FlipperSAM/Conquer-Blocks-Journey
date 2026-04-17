@@ -1,4 +1,4 @@
-# 👥 Caso de Estudio: Gestión de Usuarios con IF-ELIF-ELSE
+# Caso de Estudio: Gestión de Usuarios con IF-ELIF-ELSE
 
 En este ejercicio se aplica la lógica de **Control de Flujo** para gestionar el acceso a un sistema basado en nombres de usuario específicos.
 
