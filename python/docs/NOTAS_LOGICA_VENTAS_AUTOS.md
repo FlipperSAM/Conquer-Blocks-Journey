@@ -1,4 +1,4 @@
-# 📉 Lógica de Negocio: Cálculo de Comisiones
+# Lógica de Negocio: Cálculo de Comisiones
 
 En este proyecto se implementa un sistema de cálculo de incentivos basado en diferentes categorías de productos, una tarea común en el desarrollo de software administrativo.
 
