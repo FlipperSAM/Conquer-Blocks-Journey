@@ -1,4 +1,4 @@
-# ❄️ Física con Python: Cálculo de Velocidad Media
+# Física con Python: Cálculo de Velocidad Media
 
 En el desarrollo de software para deportes de alto rendimiento (como el **Skeleton**), la precisión en la conversión de unidades es crítica.
 
