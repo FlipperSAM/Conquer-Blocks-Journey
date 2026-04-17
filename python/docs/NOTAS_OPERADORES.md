@@ -1,4 +1,4 @@
-# 🔢 Operadores Aritméticos y Tipos de Datos
+# Operadores Aritméticos y Tipos de Datos
 
 En este ejercicio de la **Casa de Cambios**, he aplicado conceptos fundamentales para el manejo de datos numéricos en Python.
 
