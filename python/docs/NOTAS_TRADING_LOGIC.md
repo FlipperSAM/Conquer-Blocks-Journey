@@ -1,4 +1,4 @@
-# 📈 Lógica de Programación Aplicada al Trading
+# Lógica de Programación Aplicada al Trading
 
 Este proyecto simula la toma de decisiones de un bot financiero basado en umbrales de precio predefinidos.
 
