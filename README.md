@@ -177,7 +177,7 @@ Este documento forma parte de mi especialización en el **Máster de Conquer Blo
 
 ---
 
-## 🛠️ Python Avanzado
+## Python Avanzado
 
 ### 1. Tipado Dinámico y F-Strings
 Python permite flexibilidad total, pero la legibilidad es clave:
