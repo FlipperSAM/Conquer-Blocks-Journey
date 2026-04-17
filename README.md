@@ -20,12 +20,14 @@ Aquí puedes encontrar los ejercicios prácticos que voy desarrollando durante e
 *   **[🛡️ Proyecto: Protección de Tarjeta](./python/scripts/proteccion_tarjeta.py):** Un script de seguridad que aplica técnicas de enmascaramiento de datos (Data Masking) para ocultar información sensible.
 *   **[🔄 Proyecto: Reordenando Números](./python/scripts/reordenando_numeros.py):** Un script que descompone números en sus componentes individuales e implementa la inversión de secuencias mediante slicing avanzado.
 *   **[🍽️ Proyecto: Cuenta de Restaurante](./python/scripts/restaurante_cuenta.py):** Un sistema de facturación que utiliza diccionarios para gestionar un menú y generar un ticket de venta detallado.
-*   **[⚖️ Análisis: Lógica Condicional](./python/docs/NOTAS_CONDICIONALES_PRO.md):** Resumen de investigación sobre estructuras de decisión y operadores lógicos.
-*   **[🚀 Script: Test de Lógica](./python/scripts/test_condicionales_pro.py):** Implementación práctica de comparaciones y operadores booleanos.
-*   **[👤 Proyecto: Gestión de Usuarios IF](./python/scripts/gestion_usuarios_if.py):** Un script de autenticación básica que utiliza condicionales para dar bienvenidas personalizadas tras normalizar la entrada del usuario.
-*   **[🎓 Proyecto: Becas Estudiantes](./python/scripts/becas_estudiantes.py):** Un script de validación que utiliza operadores lógicos y comparaciones de rango para determinar la elegibilidad de becas académicas.
-*   **[🧾 Proyecto: Declaración de la Renta](./python/scripts/declaracion_renta.py):** Un simulador tributario que implementa lógica de filtros previos (edad/ingresos) y cálculo de tramos impositivos mediante condicionales anidados.
-*   **[🍔 Proyecto: Hamburguesería Online](./python/scripts/hamburgueseria_online.py):** Sistema de pedidos interactivo con menús dinámicos que cambian según la elección del usuario, aplicando normalización de entradas.
+*   **[Análisis: Lógica Condicional](./python/docs/NOTAS_CONDICIONALES_PRO.md):** Resumen de investigación sobre estructuras de decisión y operadores lógicos.
+*   **[Script: Test de Lógica](./python/scripts/test_condicionales_pro.py):** Implementación práctica de comparaciones y operadores booleanos.
+*   **[Proyecto: Gestión de Usuarios IF](./python/scripts/gestion_usuarios_if.py):** Un script de autenticación básica que utiliza condicionales para dar bienvenidas personalizadas tras normalizar la entrada del usuario.
+*   **[Proyecto: Becas Estudiantes](./python/scripts/becas_estudiantes.py):** Un script de validación que utiliza operadores lógicos y comparaciones de rango para determinar la elegibilidad de becas académicas.
+*   **[Proyecto: Declaración de la Renta](./python/scripts/declaracion_renta.py):** Un simulador tributario que implementa lógica de filtros previos (edad/ingresos) y cálculo de tramos impositivos mediante condicionales anidados.
+*   **[Proyecto: Hamburguesería Online](./python/scripts/hamburgueseria_online.py):** Sistema de pedidos interactivo con menús dinámicos que cambian según la elección del usuario, aplicando normalización de entradas.
+*   **[Proyecto: Gestión de Inventario](./python/scripts/gestion_inventario.py):** Una aplicación práctica de estructuras de datos que implementa la manipulación dinámica de listas (CRUD básico).
+
 
 ---
 ## 📖 Teoria
