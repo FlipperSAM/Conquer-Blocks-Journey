@@ -1,4 +1,4 @@
-# 🔀 Lógica de Condicionales Anidados
+# Lógica de Condicionales Anidados
 
 En este bloque profundizo en estructuras de decisión complejas donde el resultado de una evaluación depende de una validación previa.
 
