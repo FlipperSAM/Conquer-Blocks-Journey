@@ -1,4 +1,4 @@
-# 🛡️ Seguridad de Datos: Enmascaramiento de Strings
+# Seguridad de Datos: Enmascaramiento de Strings
 
 En el desarrollo de software financiero, la **privacidad de los datos** es una prioridad absoluta. Este ejercicio demuestra cómo proteger información sensible mediante técnicas de manipulación de cadenas.
 
