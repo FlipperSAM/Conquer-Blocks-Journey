@@ -1,7 +1,7 @@
 # Conquer-Blocks-Journey
 
 ## Tabla de Contenidos (Navegación interna)
-* ## 🐍 Fundamentos de Python
+* ## Fundamentos de Python
 Documentación técnica sobre las bases del lenguaje y manipulación de datos.
 *   **[Ver notas](./python/docs/NOTAS_STRINGS_BIENVENIDA.md):** Explicación detallada de métodos como `.upper()`, `.lower()` y el uso de f-strings.
 
@@ -72,7 +72,7 @@ En el desarrollo de software moderno, la terminal no es solo una herramienta, es
 
 
 ---
-# 🐍 Python
+# Python
 
 # Análisis Técnico: Fundamentos y Aplicación en Python
 
@@ -171,7 +171,7 @@ En esta etapa del máster, comienzo a trabajar con **colecciones de datos**, per
 > **Habilidad Tech:** El dominio de listas es el paso previo fundamental para manejar **Bases de Datos** y flujos de información masiva en el Backend.
 ---
 
-# 🐍 Python Avanzado y Principios SOLID
+# Python Avanzado y Principios SOLID
 
 Este documento forma parte de mi especialización en el **Máster de Conquer Blocks**. Aquí documento conceptos avanzados de Python y la implementación de arquitectura limpia.
 
@@ -186,7 +186,7 @@ nombre = "Sam"
 # Uso de f-strings para mayor claridad y rendimiento
 print(f"Desarrollador en formación: {nombre}")
 ```
-# 🐍 2. List Comprehensions
+# 2. List Comprehensions
 
 Optimización de creación de listas en una sola línea:
 
@@ -209,7 +209,7 @@ except ValueError:
 ```
 ---
 
-## 🎓 Sobre el Máster
+## Sobre el Máster
 Estoy formándome en [Conquer Blocks](https://conquerblocks.com), una academia de alto rendimiento enfocada en tecnologías modernas y buenas prácticas de programación.
 
 
