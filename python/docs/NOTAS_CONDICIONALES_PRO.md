@@ -1,4 +1,4 @@
-# ⚖️ Investigación: Lógica de Control y Sentencias Condicionales
+# Investigación: Lógica de Control y Sentencias Condicionales
 
 Resumen técnico basado en la investigación de estructuras de decisión en Python.
 
