@@ -1,4 +1,4 @@
-# 📊 Proyecto: Análisis de Ahorro y Escenarios (calculadora_ahorros.py)
+# Proyecto: Análisis de Ahorro y Escenarios (calculadora_ahorros.py)
 
 En este proyecto integrador se aplican todos los conocimientos de aritmética y lógica de control para resolver un problema de finanzas personales.
 
