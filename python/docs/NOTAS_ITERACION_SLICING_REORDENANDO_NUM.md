@@ -1,4 +1,4 @@
-# 🔄 Iteración y Slicing en Python
+# Iteración y Slicing en Python
 
 En el desarrollo del software reordenando numeros, manipular el orden de los datos es una tarea recurrente en el desarrollo de software. En este ejercicio exploramos cómo tratar números como secuencias.
 
