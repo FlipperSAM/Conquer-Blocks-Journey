@@ -3,14 +3,14 @@
 ## 📖 Tabla de Contenidos (Navegación interna)
 * ## 🐍 Fundamentos de Python
 Documentación técnica sobre las bases del lenguaje y manipulación de datos.
-*   **[📚 Ver notas](./python/docs/NOTAS_STRINGS_BIENVENIDA.md):** Explicación detallada de métodos como `.upper()`, `.lower()` y el uso de f-strings.
+*   **[Ver notas](./python/docs/NOTAS_STRINGS_BIENVENIDA.md):** Explicación detallada de métodos como `.upper()`, `.lower()` y el uso de f-strings.
 
-*   **[🟢 Principios SOLID](./solid/NOTAS_SOLID.md)**  
+*   **[Principios SOLID](./solid/NOTAS_SOLID.md)**  
 
 ## 📁 Mis Proyectos
 Aquí puedes encontrar los ejercicios prácticos que voy desarrollando durante el máster:
 
-*   **[🚀 Script Bienvenida](./python/scripts/mensaje_bienvenida.py):** Un ejercicio de normalización de datos, limpieza de strings y validación de usuarios con buenas prácticas de Python.
+*   **[Script Bienvenida](./python/scripts/mensaje_bienvenida.py):** Un ejercicio de normalización de datos, limpieza de strings y validación de usuarios con buenas prácticas de Python.
 *   **[💰 Proyecto: Calculadora de Ahorros](./python/scripts/calculadora_ahorros.py):** Un sistema financiero completo que proyecta ahorros anuales y analiza la viabilidad económica bajo cambios en la jornada laboral y reducción de gastos.
 *   **[🏦 Proyecto: Casa de Cambios](./python/scripts/casa_cambios.py):** Un script de lógica financiera que aplica operadores aritméticos, cálculo de tasas de gestión (porcentajes) y formateo de precisión decimal para el manejo de divisas.
 *   **[🚗 Proyecto: Comisión de carros](./python/scripts/comisiones_carros.py):** Un script de gestión de ventas que calcula comisiones variables según el modelo de vehículo y el volumen de ventas mensual.
