@@ -1,4 +1,4 @@
-# 📦 Listas en Python: Manipulación de Colecciones
+# Listas en Python: Manipulación de Colecciones
 
 Las listas son una de las estructuras más potentes de Python. A diferencia de las variables simples, permiten almacenar múltiples elementos en un solo lugar.
 
