@@ -153,6 +153,20 @@ Es la implementación práctica de la lógica "Si-Entonces". Permite realizar un
 *   **Orden de Prioridad:** Aprendí que Python evalúa las condiciones de arriba hacia abajo. Al usar `elif`, el programa se detiene en cuanto encuentra la primera coincidencia verdadera, optimizando el uso de recursos.
 *   **Validación Defensiva:** Uso de `else` como clausura de seguridad para manejar casos no previstos o entradas inválidas del usuario.
 
+## 📦 Estructuras de Datos: Listas y Colecciones (Parte 1)
+
+En esta etapa del máster, comienzo a trabajar con **colecciones de datos**, permitiendo almacenar y manipular múltiples valores bajo un mismo identificador.
+
+*   **Definición de Listas:** Uso de corchetes `[]` para agrupar elementos de forma ordenada.
+*   **Indexación:** Comprensión del sistema de índices (empezando desde `0`) para acceder a elementos específicos.
+*   **Mutabilidad:** Capacidad de las listas para ser modificadas (añadir, eliminar o cambiar elementos) durante la ejecución del programa.
+*   **Funciones Esenciales:**
+    *   `.append()`: Para añadir elementos al final.
+    *   `.insert()`: Para añadir en una posición específica.
+    *   `.pop()` / `.remove()`: Para gestionar la salida de datos.
+    *   `len()`: Para conocer la longitud dinámica de la colección.
+
+> **Habilidad Tech:** El dominio de listas es el paso previo fundamental para manejar **Bases de Datos** y flujos de información masiva en el Backend.
 ---
 
 # 🐍 Python Avanzado y Principios SOLID
