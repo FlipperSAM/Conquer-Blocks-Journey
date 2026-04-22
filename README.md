@@ -102,11 +102,9 @@ Este documento detalla la base teórica y práctica asimilada durante el primer 
 | **Variables (snake_case)** | Indican datos que el programa modificará (ej. el total de una cuenta tras añadir productos). En mis proyectos usé variables como `ingreso_hora` y `nombre_usuario`. |
 | **Constantes (UPPER_CASE)** | Indican valores fijos que permanecen constantes durante toda la ejecución (ej. `TASA_CAMBIO`). Es una convención basada en el estándar PEP 8. |
 
-* **Estudio:** Aplicación de Snake Case **`nombre_bajo_guion`** como estándar en Python. Diferenciación técnica entre variables que cambian y constantes que no.
+* **Estudio:** Apliqué el Snake Case **`nombre_bajo_guion`**, que es el estándar en Python. Diferencie entre variables que cambian y constantes que no.
 
 ---
-
-*   **Estudio:** Apliqué el Snake Case **`nombre_bajo_guion`**, que es el estándar en Python. Diferencie entre variables que cambian y constantes que no.
 
 ### 2. Strings y sus funciones/métodos
 *   **En mis proyectos:** El script de Protección de Tarjeta y el de Bienvenida.
