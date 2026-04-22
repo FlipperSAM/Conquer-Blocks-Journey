@@ -103,6 +103,8 @@ Este documento detalla la base teórica y práctica asimilada durante el primer 
 | **Variables (snake_case)**| Indican datos que el programa modificará (ej. el total de una cuenta tras añadir productos). |
 | **Constantes (UPPER_CASE)**| Indican valores fijos que permanecen constantes durante toda la ejecución (ej. un porcentaje de impuesto o un valor de conversión). |
 
+---
+
 *   **Estudio:** Apliqué el Snake Case **`nombre_bajo_guion`**, que es el estándar en Python. Diferencie entre variables que cambian y constantes que no.
 
 ### 2. Strings y sus funciones/métodos
