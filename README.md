@@ -116,6 +116,7 @@ Este documento detalla la base teórica y práctica asimilada durante el primer 
 | **En mis proyectos** | Aplicado en el script de Protección de Tarjeta y el de Bienvenida. |
 | **Estudio** | Uso de `.lower()`, `.upper()`, `.title()` para formateo, `.replace()` para limpieza de datos y **Slicing** `[-4:]` para seguridad de tarjetas. |
 
+| **Nota de estudio** | Implementé el estándar Snake Case para mantener la legibilidad y diferencié claramente entre datos dinámicos y valores estáticos. |
 ---
 
 ### 3. Números y operaciones aritméticas
