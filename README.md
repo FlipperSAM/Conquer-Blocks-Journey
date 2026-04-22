@@ -97,17 +97,6 @@ Este documento detalla la base teórica y práctica asimilada durante el primer 
 
 # Teoría Aplicada a mis Proyectos
 
-| Elemento | Definición y Uso |
-| :--- | :--- |
-| **Variables (snake_case)** | Indican datos que el programa modificará (ej. el total de una cuenta tras añadir productos). En mis proyectos usé variables como `ingreso_hora` y `nombre_usuario`. |
-| **Constantes (UPPER_CASE)** | Indican valores fijos que permanecen constantes durante toda la ejecución (ej. `TASA_CAMBIO`). Es una convención basada en el estándar PEP 8. |
-
-* **Estudio:** Apliqué el Snake Case **`nombre_bajo_guion`**, que es el estándar en Python. Diferencie entre variables que cambian y constantes que no.
-
----
-
-# Teoría Aplicada a mis Proyectos
-
 ### 1. Nomenclatura y Convenciones
 
 | Elemento | Definición y Uso |
@@ -116,6 +105,16 @@ Este documento detalla la base teórica y práctica asimilada durante el primer 
 | **Constantes** (`UPPER_CASE`) | Valores fijos que no cambian (estándar PEP 8). Ejemplo: `TASA_CAMBIO`. |
 
 **Nota de estudio:** Implementé el estándar *Snake Case* para mantener la legibilidad y diferencié claramente entre datos dinámicos y valores estáticos.
+
+---
+
+### 2. Strings y sus Funciones/Métodos
+Aplicado principalmente en los scripts de **Protección de Tarjeta** y **Mensaje de Bienvenida**.
+
+*   **Formateo:** Uso de `.lower()`, `.upper()` y `.title()` para normalizar entradas de texto.
+*   **Limpieza de datos:** Uso de `.replace()` para eliminar caracteres no deseados (como puntos en nombres).
+*   **Manipulación (Slicing):** Aplicación de `[-4:]` para extraer y proteger los últimos dígitos de una tarjeta.
+
 
 ---
 
