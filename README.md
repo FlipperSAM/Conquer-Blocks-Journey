@@ -51,11 +51,13 @@ En el desarrollo de software moderno, la terminal no es solo una herramienta, es
 ---
 
 ## Manipulación y Visualización de Datos
+
+| Comando | Descripción | Uso Profesional |
 | :--- | :--- | :--- |
-*   **`cat / head / tail`**: Fundamentales para leer logs de errores o previsualizar archivos sin abrirlos en un editor pesado.
-*   **`mv` (Move)**: Se utiliza tanto para mover archivos como para **renombrarlos**.
-*   **`cp -r`**: Copiar directorios enteros de forma recursiva (ideal para hacer backups rápidos).
-*   **`rm -rf`**: Borrado recursivo y forzado. Es el comando de "limpieza total" de carpetas de dependencias o temporales.
+| `cat / head / tail` | **Visualización de contenido** | Lectura rápida de logs de errores o previsualización de scripts sin abrir editores de texto. |
+| `mv` | **Move / Rename** | Traslado de archivos a directorios específicos o cambio de nombre de módulos y paquetes. |
+| `cp -r` | **Copy Recursive** | Duplicación de directorios completos para la creación de respaldos locales o clonación de entornos. |
+| `rm -rf` | **Remove Recursive Force** | Eliminación definitiva de directorios de dependencias o archivos temporales de forma recursiva. |
 
 ---
 
