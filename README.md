@@ -51,7 +51,7 @@ En el desarrollo de software moderno, la terminal no es solo una herramienta, es
 ---
 
 ## Manipulación y Visualización de Datos
-
+| :--- | :--- | :--- |
 *   **`cat / head / tail`**: Fundamentales para leer logs de errores o previsualizar archivos sin abrirlos en un editor pesado.
 *   **`mv` (Move)**: Se utiliza tanto para mover archivos como para **renombrarlos**.
 *   **`cp -r`**: Copiar directorios enteros de forma recursiva (ideal para hacer backups rápidos).
