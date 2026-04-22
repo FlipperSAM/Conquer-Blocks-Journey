@@ -63,13 +63,23 @@ En el desarrollo de software moderno, la terminal no es solo una herramienta, es
 
 ## Comandos de Sistema y Utilidades
 
-
 | Comando | Descripción | Uso Profesional |
 | :--- | :--- | :--- |
 | `sudo` | **Superuser Do** | Ejecución de tareas con privilegios administrativos necesarias para la configuración del sistema. |
 | `grep` | **Global Regular Expression** | Búsqueda y filtrado de cadenas de texto específicas dentro de archivos o salidas de comandos. |
 | `history` | **Command History** | Consulta de secuencias de comandos ejecutadas previamente para optimizar el flujo de trabajo. |
 | `clear` | **Clear Screen** | Limpieza de la interfaz de la terminal para mantener el orden visual en el área de trabajo. |
+
+---
+
+## Permisos y Gestión de Flujos
+
+| Comando | Descripción | Uso Profesional |
+| :--- | :--- | :--- |
+| `chmod` | **Change Mode** | Gestión de permisos de lectura, escritura y ejecución para asegurar scripts de backend. |
+| `chown` | **Change Owner** | Cambio de propiedad de archivos y directorios en entornos de servidor. |
+| `>` / `>>` | **Redireccionamiento** | Envío de la salida de un comando a un archivo (creación de archivos de log dinámicos). |
+| `pipe (\|)` | **Tubería** | Conexión de comandos donde la salida de uno es la entrada del siguiente (automatización). |
 
 ---
 > "Un buen desarrollador rara vez despega las manos del teclado." 
