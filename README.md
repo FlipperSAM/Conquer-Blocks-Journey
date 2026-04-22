@@ -98,7 +98,7 @@ Este documento detalla la base teórica y práctica asimilada durante el primer 
 # Teoría Aplicada a mis Proyectos
 
 ### 1. Uso de variables y nomenclatura
-*   **En mis proyectos:** Usé variables como **`ingreso_hora`**, **`nombre_usuario`**ya que se ue utilizan para almacenar datos que fluyen y cambian durante la ejecución del programa y constantes en mayúsculas como **`TASA_CAMBIO`** ya que es una convención de desarrollo (basada en el estándar PEP 8) para identificar Constantes.
+*   **En mis proyectos:** Usé variables como **`ingreso_hora`**, **`nombre_usuario`** ya que se utilizan para almacenar datos que fluyen y cambian durante la ejecución del programa y constantes en mayúsculas como **`TASA_CAMBIO`** ya que es una convención de desarrollo (basada en el estándar PEP 8) para identificar Constantes.
 *   **Variables (snake_case):** Indican datos que el programa modificará (ej. el total de una cuenta tras añadir productos).
 *   **Constantes (UPPER_CASE):** Indican valores fijos que permanecen constantes durante toda la ejecución (ej. un porcentaje de impuesto o un valor de conversión).
 
