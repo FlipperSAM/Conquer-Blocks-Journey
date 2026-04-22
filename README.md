@@ -106,9 +106,25 @@ Este documento detalla la base teórica y práctica asimilada durante el primer 
 
 ---
 
-### 2. Strings y sus funciones/métodos
-*   **En mis proyectos:** El script de Protección de Tarjeta y el de Bienvenida.
-*   **Estudio:** Usé **`.lower()`**, **`.upper()`**, **`.title()`** para formatear, y **`.replace()`** para limpiar datos sucios (como los puntos en el nombre). También el Slicing **`[-4:]`** para la tarjeta.
+# Teoría Aplicada a mis Proyectos
+
+### 1. Nomenclatura y Convenciones
+
+| Elemento | Definición y Uso |
+| :--- | :--- |
+| **Variables** (`snake_case`) | Almacenan datos que el programa modificará. Ejemplo: `ingreso_hora`, `nombre_usuario`. |
+| **Constantes** (`UPPER_CASE`) | Valores fijos que no cambian (estándar PEP 8). Ejemplo: `TASA_CAMBIO`. |
+
+**Nota de estudio:** Implementé el estándar *Snake Case* para mantener la legibilidad y diferencié claramente entre datos dinámicos y valores estáticos.
+
+---
+
+### 2. Strings y sus Funciones/Métodos
+Aplicado principalmente en los scripts de **Protección de Tarjeta** y **Mensaje de Bienvenida**.
+
+*   **Formateo:** Uso de `.lower()`, `.upper()` y `.title()` para normalizar entradas de texto.
+*   **Limpieza de datos:** Uso de `.replace()` para eliminar caracteres no deseados (como puntos en nombres).
+*   **Manipulación (Slicing):** Aplicación de `[-4:]` para extraer y proteger los últimos dígitos de una tarjeta.
 
 ### 3. Números y operaciones aritméticas
 *   **En mis proyectos:** La Casa de Cambios y las Olimpiadas.
