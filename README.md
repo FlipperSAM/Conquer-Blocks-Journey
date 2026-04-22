@@ -104,7 +104,7 @@ Este documento detalla la base teórica y práctica asimilada durante el primer 
 | **Variables** (`snake_case`) | Almacenan datos que el programa modificará. Ejemplo: `ingreso_hora`, `nombre_usuario`. |
 | **Constantes** (`UPPER_CASE`) | Valores fijos que no cambian (estándar PEP 8). Ejemplo: `TASA_CAMBIO`. |
 
-**Nota de estudio:** Implementé el estándar *Snake Case* (guiones_bajos) para mantener la legibilidad y diferencié claramente entre datos dinámicos y valores estáticos.
+**Nota de estudio:** Implementé el estándar *Snake Case* "guiones_bajos" para mantener la legibilidad y diferencié claramente entre datos dinámicos y valores estáticos.
 
 ---
 
