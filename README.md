@@ -61,12 +61,15 @@ En el desarrollo de software moderno, la terminal no es solo una herramienta, es
 
 ---
 
-##  Comandos de Poder y Sistema
+## Comandos de Sistema y Utilidades
 
-*   **`sudo`**: Ejecución con privilegios de administrador. Vital para instalaciones de software.
-*   **`grep`**: El buscador universal. Permite encontrar una palabra específica dentro de cientos de archivos.
-*   **`history`**: Para recuperar ese comando largo y complejo que escribiste hace 10 minutos.
-*   **`clear`**: Mantener el espacio de trabajo limpio para evitar distracciones visuales.
+
+| Comando | Descripción | Uso Profesional |
+| :--- | :--- | :--- |
+| `sudo` | **Superuser Do** | Ejecución de tareas con privilegios administrativos necesarias para la configuración del sistema. |
+| `grep` | **Global Regular Expression** | Búsqueda y filtrado de cadenas de texto específicas dentro de archivos o salidas de comandos. |
+| `history` | **Command History** | Consulta de secuencias de comandos ejecutadas previamente para optimizar el flujo de trabajo. |
+| `clear` | **Clear Screen** | Limpieza de la interfaz de la terminal para mantener el orden visual en el área de trabajo. |
 
 ---
 > "Un buen desarrollador rara vez despega las manos del teclado." 
