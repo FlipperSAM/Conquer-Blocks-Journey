@@ -1,4 +1,4 @@
-# 🐍 Manipulación de Strings en Python (bienvenida_usuarios.py)
+# Manipulación de Strings en Python (bienvenida_usuarios.py)
 
 En el desarrollo profesional, los datos que vienen del usuario suelen estar "sucios". Python ofrece herramientas potentes para estandarizarlos antes de procesarlos.
 
