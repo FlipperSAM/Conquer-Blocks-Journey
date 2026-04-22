@@ -108,22 +108,15 @@ Este documento detalla la base teórica y práctica asimilada durante el primer 
 
 ---
 
-### 2. Strings y sus Funciones/Métodos
-Aplicado principalmente en los scripts de **Protección de Tarjeta** y **Mensaje de Bienvenida**.
+### 2. Strings y sus funciones/métodos
 
-*   **Formateo:** Uso de `.lower()`, `.upper()` y `.title()` para normalizar entradas de texto.
-*   **Limpieza de datos:** Uso de `.replace()` para eliminar caracteres no deseados (como puntos en nombres).
-*   **Manipulación (Slicing):** Aplicación de `[-4:]` para extraer y proteger los últimos dígitos de una tarjeta.
 
+| Contexto | Detalle de Aplicación |
+| :--- | :--- |
+| **En mis proyectos** | Aplicado en el script de Protección de Tarjeta y el de Bienvenida. |
+| **Estudio** | Uso de `.lower()`, `.upper()`, `.title()` para formateo, `.replace()` para limpieza de datos y **Slicing** `[-4:]` para seguridad de tarjetas. |
 
 ---
-
-### 2. Strings y sus Funciones/Métodos
-Aplicado principalmente en los scripts de **Protección de Tarjeta** y **Mensaje de Bienvenida**.
-
-*   **Formateo:** Uso de `.lower()`, `.upper()` y `.title()` para normalizar entradas de texto.
-*   **Limpieza de datos:** Uso de `.replace()` para eliminar caracteres no deseados (como puntos en nombres).
-*   **Manipulación (Slicing):** Aplicación de `[-4:]` para extraer y proteger los últimos dígitos de una tarjeta.
 
 ### 3. Números y operaciones aritméticas
 *   **En mis proyectos:** La Casa de Cambios y las Olimpiadas.
