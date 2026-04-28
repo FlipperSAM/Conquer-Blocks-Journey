@@ -1,35 +1,50 @@
 """
-PROYECTO: Gestión de Turnos con IA
+PROYECTO: IA BarberFlow - Gestión de Turnos Avanzada
 PROFESIÓN: Ingeniero / Peluquero
-TEMA: Listas y Bucles (Práctica de Clase)
+TEMA: Listas, Slicing y Estadística (Clase 2)
 """
 
-# Definición de datos maestros
-servicios = ["Corte", "Barba", "Color", "Tratamiento Capilar"]
-clientes_espera = ["Carlos", "Marta", "Jorge", "Elena", "Andrés"]
+# 1. Definición de datos (Listas Numéricas y Strings)
+servicios = ["Corte", "Barba", "Color", "Tratamiento"]
+precios = [15.0, 10.0, 30.0, 20.0]
+clientes_espera = ["Carlos", "Marta", "Jorge", "Elena", "Andrés", "Lucía"]
 
-def mostrar_menu():
-    print("\n--- SERVICIOS DISPONIBLES (Uso de for + enumerate) ---")
-    for i, servicio in enumerate(servicios, 1):
-        print(f"{i}. {servicio}")
+def reporte_financiero():
+    # --- Uso de Funciones Matemáticas ---
+    total_potencial = sum(precios)
+    servicio_top = max(precios)
+    
+    print("\n--- ANÁLISIS DE NEGOCIO (Estadística Rápida) ---")
+    print(f"Ingreso total previsto: {total_potencial}€")
+    print(f"Tarifa máxima actual: {servicio_top}€")
 
-def procesar_cola():
-    print(f"\n--- INICIO DE JORNADA (Uso de while) ---")
-    print(f"Clientes iniciales: {len(clientes_espera)}")
+def mostrar_agenda_segmentada():
+    # --- Uso de Slicing (Porciones de lista) ---
+    # Dividimos la jornada: los 3 primeros son el "Turno Mañana"
+    turno_manana = clientes_espera[:3]
+    turno_tarde = clientes_espera[3:]
+    
+    print("\n--- ORGANIZACIÓN DE JORNADA (Slicing) ---")
+    print(f"Mañana (Prioridad): {turno_manana}")
+    print(f"Tarde (Pendientes): {turno_tarde}")
+
+def procesar_jornada():
+    print("\n--- INICIO DE ATENCIÓN (Bucle While + FIFO) ---")
     
     while clientes_espera:
-        # Extraemos al primer cliente de la lista
+        # Extraemos al primer cliente (Lógica de cola real)
         cliente_actual = clientes_espera.pop(0)
-        print(f">> Atendiendo a: {cliente_actual}")
+        print(f"Atendiendo a: {cliente_actual}...")
         
-        # Ejemplo de List Comprehension: Filtrar nombres con más de 5 letras
-        # mientras procesamos el resto
-        pendientes_largos = [c for c in clientes_espera if len(c) > 5]
-        if pendientes_largos:
-            print(f"   (Nota: En cola quedan nombres largos: {pendientes_largos})")
-
-    print("\n✅ Jornada finalizada: No quedan clientes en la lista.")
+        # --- List Comprehension ---
+        # Filtramos nombres cortos para una promoción rápida
+        promo_rapida = [c for c in clientes_espera if len(c) <= 5]
+        if promo_rapida:
+            print(f"   > IA Sugerencia: Ofrecer promo rápida a {promo_rapida}")
 
 if __name__ == "__main__":
-    mostrar_menu()
-    procesar_cola()
+    # Ejecutamos las funciones que demuestran el dominio de la Clase 2
+    mostrar_agenda_segmentada()
+    reporte_financiero()
+    procesar_jornada()
+    print("\n✅ Sistema actualizado y jornada cerrada.")
