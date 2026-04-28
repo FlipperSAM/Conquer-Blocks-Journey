@@ -122,24 +122,62 @@ Este documento detalla la base teórica y práctica asimilada durante el primer 
 ---
 
 ### 3. Números y operaciones aritméticas
-*   **En mis proyectos:** La Casa de Cambios y las Olimpiadas.
-*   **Estudio:** Usé **`*`** (multiplicación), **`/`** (división) y **`-`** (resta). Apliqué la lógica de porcentajes (comisiones) y conversiones físicas (velocidad).
+
+
+| Contexto | Detalle de Aplicación |
+| :--- | :--- |
+| **En mis proyectos** | La Casa de Cambios y las Olimpiadas. |
+| **Estudio** | Uso de **`*`** (multiplicación), **`/`** (división) y **`-`** (resta). Aplicación de lógica de porcentajes (comisiones) y conversiones físicas (velocidad). |
+
+**Nota de estudio:** Aprendí a utilizar operadores aritméticos para resolver cálculos lógicos y matemáticos fundamentales dentro de un flujo de programa.
+
+---
 
 ### 4. Combinar números y strings
-*   **En mis proyectos:** En todos los **`print()`** finales.
-*   **Estudio:** Dominé las **`f-strings`** **`(f"Hola {nombre}, tienes {ahorro}€")`**. Es la forma más profesional de mezclar texto con resultados numéricos sin que el programa dé error.
+
+
+| Contexto | Detalle de Aplicación |
+| :--- | :--- |
+| **En mis proyectos** | Aplicado en todos los **`print()`** finales de los proyectos desarrollados. |
+| **Estudio** | Dominio de las **`f-strings`** `(f"Hola {nombre}, tienes {ahorro}€")`. Técnica profesional para integrar variables sin errores de tipo de dato. |
+
+**Nota de estudio:** Las f-strings facilitan la legibilidad del código y evitan errores de concatenación comunes al mezclar tipos de datos distintos.
+
+---
 
 ### 5. Leer valores de entrada
-*   **En mis proyectos:** El uso constante de **`input()`**.
-*   **Estudio:** Entendí que todo lo que entra por **`input()`** es inicialmente un String. Sin este comando, mis programas no serían interactivos.
+
+
+| Contexto | Detalle de Aplicación |
+| :--- | :--- |
+| **En mis proyectos** | Uso constante del comando **`input()`** para interactuar con el usuario. |
+| **Estudio** | Captura de datos externos. Comprendí que todo valor recibido por esta vía es tratado inicialmente como un String (cadena de texto). |
+
+**Nota de estudio:** El comando input es el pilar de la interactividad, permitiendo que el software responda a datos dinámicos proporcionados por el usuario.
+
+---
 
 ### 6. Conversión entre tipos de datos (Casting)
-*   **En mis proyectos:** Calculadora de Ahorros y Olimpiadas.
-*   **Estudio:** Usé **`float()`** para dinero e **`int()`** para minutos/segundos. Aprendí que para operar matemáticamente con un **`input()`**, primero se debe convertir a número.
+
+
+| Contexto | Detalle de Aplicación |
+| :--- | :--- |
+| **En mis proyectos** | Calculadora de Ahorros y Olimpiadas. |
+| **Estudio** | Uso de **`float()`** para valores monetarios e **`int()`** para medidas de tiempo. Transformación de entradas de texto en datos operables. |
+
+**Nota de estudio:** El casting es un proceso crítico en ingeniería para asegurar que los datos tengan el formato correcto antes de realizar operaciones matemáticas.
+
+---
 
 ### 7. Uso de los comentarios
-*   **En mis proyectos:** Los encabezados con **`"""`** (Docstrings) y los **`#`** estos se usan para explicar pasos a otros desarrolladores que vean el código desde el backend.
-*   **Estudio:** Documenté el "qué" y el "por qué" del código. Un código sin comentarios es un código "huérfano" que nadie quiere mantener en una empresa.
+
+
+| Contexto | Detalle de Aplicación |
+| :--- | :--- |
+| **En mis proyectos** | Encabezados con **`"""`** (Docstrings) y explicaciones técnicas con **`#`**. |
+| **Estudio** | Documentación del "qué" y el "por qué". Práctica esencial para asegurar que el backend sea comprensible y mantenible en entornos colaborativos. |
+
+**Nota de estudio:** Un código bien comentado refleja profesionalismo y reduce la deuda técnica, facilitando la escalabilidad y el mantenimiento del proyecto.
 
 ---
 *Este análisis certifica mi capacidad para transformar conceptos teóricos en soluciones de código escalables y profesionales.*
