@@ -2,7 +2,7 @@
 
 En este bloque aplico el manejo de listas y bucles para resolver la problemática real de la organización de turnos y el flujo de trabajo en una barbería/peluquería.
 
-### ### Puntos Clave:
+### Puntos Clave:
 
 *   **Lógica de Cola Real (FIFO):** Mediante el uso de `.pop(0)` en la lista de `clientes_espera`, el software replica el orden de llegada de la peluquería. Esto garantiza que el sistema sea justo y no pierda el hilo de quién es el siguiente.
 *   **Automatización de Menús con `enumerate()`:** En lugar de escribir cada servicio a mano, el bucle `for` recorre la lista `servicios`. Esto permite que el negocio sea escalable: si mañana añades "Corte de Barba", el sistema lo numera y lo muestra automáticamente.
