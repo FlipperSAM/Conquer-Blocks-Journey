@@ -1,0 +1,40 @@
+# Documentación Técnica: Motor de Gestión de Turnos (Fase 1)
+
+Este documento describe la implementación de estructuras de datos y lógica de control aplicadas al software de gestión de peluquería.
+
+## 1. Diseño de Estructuras de Datos
+
+Se han utilizado **Listas Dinámicas** para representar el estado del negocio en tiempo real. 
+
+### Variables Maestras:
+*   `servicios`: Lista de tipo *String* que actúa como catálogo de productos. Se optó por una lista por su propiedad de orden, facilitando la visualización del menú.
+*   `clientes_espera`: Estructura que simula una cola de procesamiento (Queue).
+
+---
+
+## 2. Análisis de Algoritmos e Iteración
+
+### A. Enumeración de Servicios (`for` + `enumerate`)
+Para el método `mostrar_menu()`, se implementó un bucle `for` con la función `enumerate()`. 
+*   **Justificación Técnica:** Evita el uso de contadores manuales externos, reduciendo la complejidad del código y mejorando la legibilidad (PEP 8). El índice se ajusta a base 1 para una mejor experiencia de usuario (UX).
+
+### B. Gestión de Flujo (`while`)
+El método `procesar_cola()` utiliza un bucle `while` controlado por la veracidad de la lista (`while clientes_espera:`).
+*   **Lógica de Salida:** El bucle se detiene automáticamente cuando la lista está vacía (`Falsy` en Python).
+*   **Procesamiento FIFO (First-In-First-Out):** El uso de `.pop(0)` garantiza que el cliente que ingresó primero sea el primero en ser atendido, manteniendo la integridad del orden de llegada en la peluquería.
+
+---
+
+## 3. Optimización con List Comprehensions
+
+Se aplicó una **List Comprehension** para realizar auditoría en tiempo real sobre la cola de espera:
+`pendientes_largos = [c for c in clientes_espera if len(c) > 5]`
+
+*   **Impacto:** Permite filtrar y segmentar clientes sin necesidad de crear bucles anidados complejos, optimizando el uso de memoria y tiempo de ejecución.
+
+---
+
+## 4. Próximos Pasos en el Desarrollo
+1.  **Persistencia:** Implementar diccionarios para vincular cada cliente con un servicio específico.
+2.  **Validación:** Añadir bloques `try-except` para manejar entradas de usuario inválidas en la selección del menú.
+3.  **IA Logic:** Integrar un algoritmo de priorización que reordene la lista basado en el tiempo estimado de cada servicio.
