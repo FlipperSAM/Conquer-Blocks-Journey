@@ -180,6 +180,20 @@ Este documento detalla la base teórica y práctica asimilada durante el primer 
 **Nota de estudio:** Un código bien comentado refleja profesionalismo y reduce la deuda técnica, facilitando la escalabilidad y el mantenimiento del proyecto.
 
 ---
+
+### 8. Listas e Iteración Avanzada
+
+
+
+| Contexto | Detalle de Aplicación |
+| :--- | :--- |
+| **En mis proyectos** | Software de gestión de turnos **IA BarberFlow**. |
+| **Estudio** | Uso de `.pop(0)` para **FIFO**, `.enumerate()` para menús, **Slicing** para segmentar agendas y **List Comprehensions** para filtros rápidos. |
+
+**Nota de estudio:** Comprendí cómo las estructuras de datos y los bucles permiten automatizar la lógica de un negocio real, permitiendo que el sistema tome decisiones basadas en el estado de la lista.
+
+---
+
 *Este análisis certifica mi capacidad para transformar conceptos teóricos en soluciones de código escalables y profesionales.*
 
 # Lógica de Control: Test Condicionales y Expresiones Booleanas
