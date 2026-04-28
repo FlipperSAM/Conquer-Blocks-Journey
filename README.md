@@ -187,7 +187,7 @@ Este documento detalla la base teórica y práctica asimilada durante el primer 
 
 | Contexto | Detalle de Aplicación |
 | :--- | :--- |
-| **En mis proyectos** | Software de gestión de turnos **IA BarberFlow**. |
+| **En mis proyectos** | Software de gestión de turnos **IA Peluqueria**. |
 | **Estudio** | Uso de `.pop(0)` para **FIFO**, `.enumerate()` para menús, **Slicing** para segmentar agendas y **List Comprehensions** para filtros rápidos. |
 
 **Nota de estudio:** Comprendí cómo las estructuras de datos y los bucles permiten automatizar la lógica de un negocio real, permitiendo que el sistema tome decisiones basadas en el estado de la lista.
