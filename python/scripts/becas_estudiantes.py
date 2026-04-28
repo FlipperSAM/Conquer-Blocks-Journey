@@ -12,7 +12,7 @@ def evaluar_beca():
     try:
         edad = int(input(f"Introduce la edad de {nombre}: "))
         nota_media = float(input(f"Introduce la nota media de {nombre}: "))
-                                   
+        
         # 2. Lógica de validación con operadores lógicos
         # Requisitos: Nota mínima de 8 Y edad entre 17 y 21 años
         cumple_nota = nota_media >= 8
