@@ -199,6 +199,74 @@ En esta etapa del máster, comienzo a trabajar con **colecciones de datos**, per
     *   `len()`: Para conocer la longitud dinámica de la colección.
 
 > **Habilidad Tech:** El dominio de listas es el paso previo fundamental para manejar **Bases de Datos** y flujos de información masiva en el Backend.
+
+# Estructuras de Datos e Iteración (Parte 2)
+
+En este bloque profundizo en el procesamiento masivo de datos y la automatización de tareas repetitivas, herramientas esenciales para la lógica de un motor de gestión de turnos.
+
+---
+
+## 1. Bucles e Iteración de Colecciones
+
+
+| Estructura | Definición y Uso | Aplicación en Peluquería |
+| :--- | :--- | :--- |
+| **Bucle `FOR`** | Recorre elementos de una secuencia finita. | Listar todos los servicios del catálogo para el cliente. |
+| **Bucle `WHILE`** | Ejecuta código mientras una condición sea `True`. | Mantener el programa activo hasta que se decida "Cerrar Caja". |
+| **`enumerate()`** | Devuelve el índice y el valor simultáneamente. | Generar un menú numerado de barberos o servicios automáticamente. |
+
+**Nota de estudio:** El bucle `for` es excelente para la lectura y procesamiento de datos existentes, mientras que el `while` controla el flujo operativo continuo del software.
+
+---
+
+## 2. Modificación de Listas en Tiempo Real
+
+*   **En mi proyecto (IA Turnos):** Gestión dinámica de la cola de espera.
+*   **Estudio:** Utilicé `.pop(0)` para implementar una lógica **FIFO** (First In, First Out), asegurando que el primer cliente en llegar sea el primero en ser procesado por el sistema.
+*   **Habilidad Pro:** El uso de `.sort()` permite organizar agendas por prioridad o por hora de llegada, optimizando la atención al cliente.
+
+---
+
+## 3. List Comprehensions (Eficiencia de Código)
+
+Es la técnica avanzada para crear nuevas listas a partir de otras de forma compacta y eficiente en una sola línea.
+
+*   **Sintaxis:** `[expresion for elemento in lista if condicion]`
+*   **Aplicación Real:** 
+    *   Filtrar solo los servicios de "Corte" en una agenda mixta.
+    *   Extraer los nombres de clientes que tienen citas confirmadas.
+
+**Nota de estudio:** Esta técnica no solo mejora la legibilidad (Clean Code), sino que es computacionalmente más rápida que los bucles tradicionales para la creación de listas.
+
+---
+
+## 4. Control de Flujo Interno (`break` y `continue`)
+
+
+| Comando | Acción | Caso de Uso |
+| :--- | :--- | :--- |
+| **`break`** | Rompe el bucle inmediatamente. | Detener la asignación si se alcanza el cupo máximo de turnos. |
+| **`continue`** | Salta a la siguiente iteración. | Ignorar a un cliente que "No asistió" y pasar al siguiente en la lista. |
+
+---
+
+> **Habilidad Tech:** La combinación de **List Comprehensions** e **Iteración** permite procesar agendas complejas en milisegundos. Esta es la base para que mi futura IA analice qué huecos son los más óptimos para ofrecer a nuevos clientes basándose en la duración de cada servicio.
+
+---
+
+### Ejemplo de Código Implementado (Lógica de Negocio)
+```python
+# Simulación de gestión de turnos del día
+turnos_pendientes = ["Corte - 10:00", "Barba - 10:30", "Color - 11:00"]
+
+print("📋 Agenda del día actualizada:")
+for i, turno in enumerate(turnos_pendientes, 1):
+    print(f"Turno #{i}: {turno}")
+
+# Uso de List Comprehension para auditoría rápida
+cortes = [t for t in turnos_pendientes if "Corte" in t]
+print(f"\nTotal de servicios de corte hoy: {len(cortes)}")
+```
 ---
 
 # Python Avanzado y Principios SOLID
