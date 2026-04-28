@@ -27,7 +27,7 @@ Aquí puedes encontrar los ejercicios prácticos que voy desarrollando durante e
 *   **[Proyecto: Declaración de la Renta](./python/scripts/declaracion_renta.py):** Un simulador tributario que implementa lógica de filtros previos (edad/ingresos) y cálculo de tramos impositivos mediante condicionales anidados.
 *   **[Proyecto: Hamburguesería Online](./python/scripts/hamburgueseria_online.py):** Sistema de pedidos interactivo con menús dinámicos que cambian según la elección del usuario, aplicando normalización de entradas.
 *   **[Proyecto: Gestión de Inventario](./python/scripts/gestion_inventario.py):** Una aplicación práctica de estructuras de datos que implementa la manipulación dinámica de listas (CRUD básico).
-*   **[Proyecto: Peluqueria](./python/scripts/gestion_
+*   **[Proyecto: Peluqueria](./python/scripts/gestion_listas_peluqueria.py):**  Sistema de gestión de flujo de clientes que implementa lógica de colas **FIFO** (First-In-First-Out) y procesamiento de datos con **List Comprehensions**. Incluye un motor de estadística rápida para el cierre de caja diario y segmentación de agenda mediante **Slicing** avanzado.
 
 
 ---
