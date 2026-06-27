@@ -459,6 +459,97 @@ Para el desarrollo práctico del curso y la generación de gráficos como histog
 * `gender`: Género declarado (50% femenino, 50% masculino).
 * `education_level`: Nivel educativo alcanzado (0: Primaria completa, 1: Secundaria completa, 2: Terciaria completa, 3: Posgrado completo).
 
+---
+
+# Gráficos y Visualización de Datos en Inteligencia Artificial
+
+Este módulo cubre la importancia de la representación gráfica de datos, los tipos de gráficos más comunes utilizados en la analítica de datos, el uso de la librería **Seaborn** y las buenas prácticas para diseñar visualizaciones efectivas.
+
+---
+
+## Temario de la Clase
+
+1. La importancia de la visualización de datos
+2. Tipos de gráficos más comunes
+3. Ejemplos prácticos en Seaborn
+4. Buenas prácticas de visualización
+
+---
+
+## Importancia de la Representación Gráfica
+
+La visualización de datos juega un papel crucial tanto en el análisis exploratorio como en el desarrollo de modelos de Inteligencia Artificial (IA) por dos razones principales:
+
+1. **Exploración de datos:** Ayuda a entender las características principales de los datos, permitiendo identificar patrones, tendencias y relaciones ocultas entre variables.
+2. **Detección de anomalías:** Facilita la identificación rápida de valores atípicos (*outliers*) o errores en los datos que podrían perjudicar el entrenamiento de un modelo de IA.
+
+> **"Una imagen vale más que mil palabras"**
+> Comparar una tabla con 15 filas de texto frente a un gráfico de líneas permite procesar la evolución de una variable (como las ventas de una empresa a lo largo de los años) de forma instantánea.
+
+---
+
+## Representación Gráfica con Seaborn
+
+**Seaborn** es una librería de visualización de datos para Python desarrollada sobre **Matplotlib**. Proporciona una interfaz de alto nivel para diseñar gráficos estadísticos atractivos, estilizados y con muy pocas líneas de código, lo que la hace **fácil y rápida de usar**.
+
+---
+
+## Tipos de Gráficos Útiles para el Análisis de Datos
+
+| Tipo de Gráfico | ¿Qué Representan? | ¿Para Qué Se Usan? | Conclusiones que se extraen |
+| :--- | :--- | :--- | :--- |
+| **Gráfico de Dispersión** *(Scatter plot)* | Relación entre dos variables continuas mediante puntos en un plano cartesiano $(X, Y)$. | Identificar y analizar relaciones, patrones y tendencias bidimensionales. | Correlaciones positivas/negativas, agrupaciones naturales y valores atípicos. |
+| **Gráfico de Barras** *(Bar plot)* | Datos categóricos representados con barras donde la longitud es proporcional al valor. | Comparar diferentes categorías o clases entre sí de forma directa. | Diferencias de magnitud e identificación de categorías con valores máximos o mínimos. |
+| **Gráfico de Cajas** *(Box plot)* | Distribución de una variable continua mostrando su mediana, cuartiles y valores atípicos. | Resumir estadísticamente la dispersión y la simetría de los datos. | Nivel de dispersión, asimetría de la muestra y presencia inequívoca de *outliers*. |
+| **Histograma** | Distribución de una variable continua dividiendo el rango de valores en intervalos (*bins*). | Entender la forma de la distribución y la frecuencia de los datos. | Patrones de simetría, sesgos, presencia de múltiples picos (multimodalidad) y brechas. |
+| **Gráfico de Violín** *(Violin plot)* | Combinación de un gráfico de cajas (*box plot*) con un gráfico de densidad de kernel. | Visualizar la distribución exacta y la densidad de una variable en diferentes grupos. | Visión detallada de la concentración de los datos y comparación de formas entre categorías. |
+| **Mapa de Calor** *(Heatmap)* | Relación de correlación entre múltiples variables numéricas dispuestas en una matriz. | Identificar patrones de correlación cruzada mediante una escala de colores. | Selección de características de entrada relevantes para IA y detección de colinealidad. |
+
+---
+
+## Dataset de Trabajo: Iris Dataset
+
+El conjunto de datos **"Iris"** es uno de los datasets más célebres y utilizados en la estadística y el aprendizaje automático (*Machine Learning*).
+
+* **Contenido:** Contiene **150 observaciones** de flores Iris divididas equitativamente en 3 especies distintas: *Iris setosa*, *Iris versicolor* e *Iris virginica*.
+* **Columnas (Características):**
+  * `Sepal Length (cm)`: Longitud del sépalo.
+  * `Sepal Width (cm)`: Ancho del sépalo.
+  * `Petal Length (cm)`: Longitud del pétalo.
+  * `Petal Width (cm)`: Ancho del pétalo.
+  * `Species`: Clase o especie de la flor (*setosa*, *versicolor*, *virginica*).
+
+---
+
+## Principios de un Buen Gráfico (Buenas Prácticas)
+
+Para construir visualizaciones profesionales y evitar gráficos sobrecargados o confusos, se deben seguir cuatro principios fundamentales:
+
+### 1. Claridad y Simplicidad (La Regla de Oro)
+* **Evitar la sobrecarga:** No satures el gráfico con demasiados elementos visuales, líneas de cuadrícula excesivas o símbolos innecesarios que distraigan.
+* **Título descriptivo:** Cada gráfico debe explicar por sí mismo qué información está mostrando.
+* **Etiquetas legibles:** Coloca nombres claros en los ejes ($X$ e $Y$) y leyendas accesibles.
+
+### 2. Escala Apropiada
+* **Ejes proporcionados:** Las escalas deben ser correctas para no distorsionar la interpretación de los datos (por ejemplo, evitar estirar o comprimir el eje $Y$ para exagerar una tendencia de crecimiento).
+* **Intervalos consistentes:** Mantén incrementos uniformes en las unidades de los ejes para facilitar las comparaciones visuales.
+
+### 3. Colores y Etiquetas
+* **Uso estratégico del color:** Utiliza el color para diferenciar categorías o resaltar puntos críticos, no por estética aleatoria. Demasiados colores confunden.
+* **Contraste alto:** Asegúrate de que los textos y los elementos clave sean fácilmente distinguibles del fondo.
+
+### 4. Narrativa y Contexto
+* **Historias con datos:** Un gráfico no solo presenta datos, cuenta una historia. Debe guiar al espectador a comprender el significado real de las métricas.
+* **Información complementaria:** Agrega notas al pie o leyendas directas si el contexto lo requiere.
+
+---
+
+## Limitaciones y Precauciones
+
+Aunque los gráficos son herramientas de comunicación potentes, están sujetos a sesgos:
+* **Sesgo de selección:** Omitir o recortar ciertos datos al construir un gráfico puede dirigir al espectador hacia interpretaciones erróneas o conclusiones convenientemente engañosas. Siempre se debe buscar la transparencia de la muestra.
+
+
 
 ## Sobre el Máster
 Estoy formándome en [Conquer Blocks](https://conquerblocks.com), una academia de alto rendimiento enfocada en tecnologías modernas y buenas prácticas de programación.
