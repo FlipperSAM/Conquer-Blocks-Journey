@@ -1,14 +1,14 @@
-# 🚀 Proyectos Prácticos de Aplicación
+# Proyectos Prácticos de Aplicación
 
 A continuación, se detallan los proyectos prácticos desarrollados para consolidar los conocimientos de estadística, visualización y muestreo utilizando entornos de desarrollo en Python.
 
 ---
 
-## 📂 Proyecto 1: Análisis Exploratorio y Estimación Salarial (EDA)
+## Proyecto 1: Análisis Exploratorio y Estimación Salarial (EDA)
 **Conceptos aplicados:** Estadística Descriptiva, Medidas de Tendencia Central y Librería Seaborn.  
 **Dataset:** `Anual Salary reports survey` (Kaggle).
 
-### 🎯 Objetivos del Proyecto
+### Objetivos del Proyecto
 1. **Limpieza e Inspección:** Cargar el dataset de 100,000 registros y verificar la consistencia de las columnas (`income`, `age`, `education_level`).
 2. **Análisis Estadístico:** Calcular de forma manual y automatizada la media, mediana y moda del ingreso anual (`income`). Identificar si existen valores atípicos (*outliers*) comparando la media con la mediana.
 3. **Visualización Avanzada:** 
@@ -27,22 +27,22 @@ print(df.describe()) # Resumen estadístico inicial
 
 ---
 
-## 🪻 Proyecto 2: Clasificación Biométrica y Correlación Estructural
+## Proyecto 2: Clasificación Biométrica y Correlación Estructural
 **Conceptos aplicados:** Correlación (Pearson y Spearman), Gráficos de Dispersión, Violín y Mapas de Calor.  
 **Dataset:** `Iris Dataset`.
 
-### 🎯 Objetivos del Proyecto
+### Objetivos del Proyecto
 1. **Análisis de Correlación Cruzada:** Generar una matriz de correlación de Pearson entre las dimensiones de los sépalos y pétalos. Visualizarla usando un **Mapa de Calor (Heatmap)** con una paleta divergente (`coolwarm`) para identificar qué variables están altamente correlacionadas.
 2. **Patrones Geométricos:** Crear un **Gráfico de Dispersión (Scatter plot)** mapeando `Petal Length` vs `Petal Width`, utilizando el argumento `hue='Species'` para comprobar visualmente cómo la probabilidad de distribución de las clases se separa de forma natural en el espacio plano.
 3. **Distribución de Densidad:** Construir **Gráficos de Violín** para la variable `Sepal Length` agrupada por especie, demostrando visualmente la multimodalidad y la concentración de los datos en comparación con un Box plot tradicional.
 
 ---
 
-## 🎲 Proyecto 3: Simulador de Muestreo Probabilístico y Regresión Lineal
+## Proyecto 3: Simulador de Muestreo Probabilístico y Regresión Lineal
 **Conceptos aplicados:** Regresión Lineal Simple, Métodos de Muestreo (Simple vs. Estratificado) y Teorema Central del Límite.  
 **Dataset:** Sintético / Modificación del Dataset de Salarios.
 
-### 🎯 Objetivos del Proyecto
+### Objetivos del Proyecto
 1. **Modelado Predictivo:** Ajustar una línea de **Regresión Lineal** (\(y = a + bx\)) para predecir el salario (`income`) de un candidato utilizando únicamente su edad (`age`) como variable independiente.
 2. **Experimento de Muestreo:**
    * Extraer una **Muestra Aleatoria Simple** del 5% del dataset.
