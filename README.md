@@ -709,6 +709,42 @@ muestra_estratificada, _ = train_test_split(df, test_size=0.90, stratify=df['edu
 El tamaño de la muestra es un factor crítico que define la calidad de las métricas en Ciencia de Datos:
 * **Precisión:** A mayor tamaño de muestra, menor es la variabilidad de las estimaciones (los parámetros calculados se estabilizan y se acercan al valor real de la población).
 * **Representatividad:** Las muestras grandes capturan mejor la diversidad intrínseca y los casos atípicos controlados de la población.
+---
+---
+
+# Web Scraping con Python
+---
+
+## Procesamiento de Lenguaje Natural (NLP) - Web Scraping
+
+Este módulo aborda las técnicas esenciales de **Web Scraping** (tanto estático como dinámico) como el paso inicial y crucial para la adquisición de datos textuales dentro del flujo de trabajo de procesamiento de lenguaje natural, bajo un marco ético y legal.
+
+---
+
+## Índice de la Clase
+
+1. Introducción y objetivos
+2. Web scraping estático (Requests & BeautifulSoup)
+3. Web scraping dinámico (Selenium)
+4. Consideraciones éticas y legales
+5. Ejercicio práctico
+
+---
+
+## Objetivos de la Lección
+
+* **Relevancia en NLP:** Comprender el papel del web scraping como fuente masiva de datos para entrenar modelos de lenguaje, análisis de sentimientos, etc.
+* **Extracción Textual:** Aprender a identificar, parsear y extraer cadenas de texto desde el código fuente de los sitios web.
+* **Selección de Herramientas:** Evaluar cuándo aplicar técnicas estáticas, dinámicas o interactuar con APIs según la arquitectura del sitio.
+* **Ética y Buenas Prácticas:** Dominar las pautas legales y el uso responsable de los recursos de servidores ajenos.
+
+---
+
+## El Flujo de Trabajo en NLP
+
+El web scraping se ubica en la primera etapa crítica del pipeline de Inteligencia Artificial aplicada al texto:
+
+
 
 ## Sobre el Máster
 Estoy formándome en [Conquer Blocks](https://conquerblocks.com), una academia de alto rendimiento enfocada en tecnologías modernas y buenas prácticas de programación.
