@@ -549,6 +549,30 @@ Para construir visualizaciones profesionales y evitar gráficos sobrecargados o 
 Aunque los gráficos son herramientas de comunicación potentes, están sujetos a sesgos:
 * **Sesgo de selección:** Omitir o recortar ciertos datos al construir un gráfico puede dirigir al espectador hacia interpretaciones erróneas o conclusiones convenientemente engañosas. Siempre se debe buscar la transparencia de la muestra.
 
+### Propiedades de las Variables Aleatorias
+* **Esperanza Matemática (Media) [$E(X)$]:** El valor promedio teórico esperado a largo plazo de la variable aleatoria.
+* **Varianza [$\text{Var}(X)$]:** Métrica que evalúa la dispersión geométrica de los datos respecto a su media.
+* **Desviación Estándar [$\sigma$]:** La raíz cuadrada de la varianza. Muestra la dispersión en las mismas unidades originales de la variable.
+
+---
+
+## Distribución Discreta: Poisson
+
+Modela la cantidad de eventos independientes que ocurren en un **intervalo fijo de tiempo o espacio**, bajo una tasa constante de ocurrencia ($\lambda$) y sabiendo que los eventos se presentan de uno en uno.
+
+* **Fórmula de Poisson:**
+  $$P(X = k) = \frac{\lambda^k \cdot e^{-\lambda}}{k!}$$
+
+* **Propiedades Únicas:**
+  * Esperanza: $E(X) = \lambda$
+  * Varianza: $\text{Var}(X) = \lambda$
+
+### Ejemplo Práctico:
+Un *Call Center* recibe en promedio **5 llamadas por minuto** ($\lambda = 5$). ¿Cuál es la probabilidad de recibir **exactamente 3 llamadas** en un minuto cualquiera?
+
+* Datos: $\lambda = 5$, $k = 3$, $e \approx 2.71828$, $3! = 3 \times 2 \times 1 = 6$
+* Operación:
+  $$P(X = 3) = \frac{5^3 \cdot e^{-5}}{3!} = \frac{125 \cdot 0.006737}{6} \approx 0.1404 \implies 14.04\%$$
 
 
 ## Sobre el Máster
