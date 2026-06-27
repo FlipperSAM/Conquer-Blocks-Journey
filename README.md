@@ -574,6 +574,76 @@ Un *Call Center* recibe en promedio **5 llamadas por minuto** ($\lambda = 5$). �
 * Operación:
   $$P(X = 3) = \frac{5^3 \cdot e^{-5}}{3!} = \frac{125 \cdot 0.006737}{6} \approx 0.1404 \implies 14.04\%$$
 
+---
+---
+
+# Correlación, Regresión y Métodos de Muestreo
+
+Este repositorio cubre los fundamentos de la estadística inferencial enfocada al modelado predictivo, la medición de relaciones entre variables (correlación y regresión) y las técnicas de muestreo para la selección de datos representativos en Inteligencia Artificial.
+
+---
+
+## Temario de la Clase
+
+1. Conceptos de Regresión Lineal
+2. Casos de Uso y Aplicaciones de la Regresión
+3. Análisis de Correlación (Pearson vs. Spearman)
+4. Métodos de Muestreo Probabilístico (Simple, Estratificado y Conglomerados)
+5. Tamaño de la Muestra y Errores de Estimación
+
+---
+
+## Correlación y Regresión
+
+Dentro de la **Estadística Inferencial**, la regresión y la correlación son herramientas clave para realizar predicciones y entender las dependencias estructurales de los datos de entrada.
+
+### ¿Qué es la Regresión Lineal Simple?
+Es un método estadístico utilizado para comprender y cuantificar la relación entre dos o más variables. Permite modelar cómo una **variable independiente ($x$)** afecta y predice el valor de una **variable dependiente ($y$)** mediante el ajuste de una ecuación de línea recta.
+
+* **Ecuación de la Recta:**
+  $$y = a + bx$$
+
+* **Componentes:**
+  * $y$: Variable dependiente (el resultado o etiqueta a predecir).
+  * $x$: Variable independiente (la característica o *feature* de entrada).
+  * $a$: Intersección con el eje $Y$ (el valor de $y$ cuando $x = 0$).
+  * $b$: Pendiente de la línea (indica el cambio en $y$ por cada unidad que incrementa $x$).
+
+### ¿Para qué se utiliza la Regresión en IA?
+
+* **Predicción y Pronóstico:** Estimación de valores continuos futuros basados en variables históricas. *(Ej. Predecir el precio de una vivienda en función de su tamaño, ubicación y número de habitaciones).*
+* **Análisis de Tendencias:** Identificación de patrones de crecimiento o decrecimiento a largo plazo. *(Ej. Análisis climático para determinar tendencias de calentamiento global).*
+* **Identificación de Relaciones:** Cuantificación del impacto directo de una variable sobre otra. *(Ej. Evaluar cómo el presupuesto invertido en publicidad afecta las ventas finales).*
+* **Optimización de Procesos:** Encontrar combinaciones ideales de variables para maximizar o minimizar un resultado. *(Ej. Optimizar la distribución del presupuesto en canales de marketing para reducir costes de adquisición).*
+
+---
+
+## ¿Qué es la Correlación?
+
+La **correlación** es una medida estadística que evalúa la **fuerza y la dirección** de la relación lineal entre dos variables aleatorias.
+
+> **REGLA DE ORO:** **Correlación NO implica causalidad.** Que dos variables varíen juntas de forma matemática no significa que una sea la causa directa de la otra.
+
+### Métricas para Medir la Correlación
+
+#### 1. Coeficiente de Correlación de Pearson
+Mide estrictamente la **relación lineal** entre dos variables continuas. Sus valores oscilan en un rango de **-1 a 1**:
+* $1$: Correlación positiva perfecta (si una sube, la otra también en proporción constante).
+* $-1$: Correlación negativa perfecta (si una sube, la otra baja de forma constante).
+* $0$: Ausencia total de correlación lineal.
+
+#### 2. Coeficiente de Correlación de Spearman
+Mide la **relación monotónica** (si las variables tienden a cambiar juntas, aunque no sea a un ritmo constante o lineal). También oscila entre **-1 y 1**, y es ideal cuando los datos no siguen una distribución normal o presentan relaciones curvas.
+
+---
+
+## Métodos de Muestreo
+
+Los **métodos de muestreo** son técnicas para seleccionar un subconjunto representativo (muestra) a partir de una población mayor. Su objetivo es inferir conclusiones sobre toda la población reduciendo costes, tiempo y esfuerzo computational.
+
+---
+---
+
 
 ## Sobre el Máster
 Estoy formándome en [Conquer Blocks](https://conquerblocks.com), una academia de alto rendimiento enfocada en tecnologías modernas y buenas prácticas de programación.
