@@ -744,6 +744,105 @@ Este módulo aborda las técnicas esenciales de **Web Scraping** (tanto estátic
 
 El web scraping se ubica en la primera etapa crítica del pipeline de Inteligencia Artificial aplicada al texto:
 
+> 💡 **Nota:** En NLP, los datos son tan importantes como el algoritmo. Internet es un océano de datos crudos, estimándose que entre el **80% y el 95% del contenido es inaccesible a través de búsquedas convencionales**, requiriendo métodos automatizados de extracción especializada.
+
+---
+
+## 🛠️ Tipos de Web Scraping y Herramientas
+
+| Tipo de Scraping | Descripción | Escenario de Uso | Herramientas en Python |
+| :--- | :--- | :--- | :--- |
+| **Estático** | Extrae información del código HTML inicial de la página. No requiere interacción del usuario. | Páginas informativas, blogs o sitios cuyo contenido se renderiza en el servidor. | `requests`, `BeautifulSoup` (BS4) |
+| **Dinámico** | Simula interacciones (clics, scroll, logins) en páginas que cargan su contenido de forma asíncrona mediante JavaScript. | Aplicaciones SPA, redes sociales, paneles con scroll infinito. | `Selenium` |
+| **API Scraping** | Extracción programática directa mediante peticiones a las APIs públicas o privadas expuestas por el sitio. | Cuando el sitio provee endpoints de consulta estructurada (JSON/XML). | `requests`, `urllib` |
+
+---
+
+## 📄 Web Scraping Estático
+
+El contenido se descarga mediante una petición HTTP ordinaria y se parsea la estructura de etiquetas.
+
+### 1. Petición HTTP con `requests`
+```python
+import requests
+
+url = "https://example.com"
+
+try:
+    response = requests.get(url)
+except Exception as e:
+    print(f"Error al abrir la página: {e}")
+else:
+    if response.status_code == 200:
+        print("Contenido de la solicitud GET recuperado con éxito.")
+        # response.content contiene el HTML crudo en bytes
+    else:
+        print(f"Error en la solicitud. Código de estado: {response.status_code}")
+```
+
+### 2. Parseo y Búsqueda con `BeautifulSoup`
+```python
+from bs4 import BeautifulSoup
+
+# Generar el "objeto sopa" usando el parser nativo de HTML
+soup = BeautifulSoup(response.content, 'html.parser')
+
+# A. Buscar el primer elemento de una etiqueta específica
+title_tag = soup.find('title')
+print(f"Etiqueta de título: {title_tag}")
+print(f"Texto limpio: {title_tag.text}")
+
+# B. Buscar TODOS los elementos de una etiqueta (devuelve una lista)
+links = soup.find_all('a')
+for link in links:
+    # Extraer el valor del atributo 'href' de forma segura
+    href = link.get('href')
+    if href:
+        print(href)
+```
+
+### 3. Navegación por el Árbol HTML y Atributos
+```python
+# Acceso directo al primer enlace del documento
+first_link = soup.find('a')
+
+# Obtener atributos como diccionario o usando .get()
+url_destino = first_link['href'] 
+url_seguro = first_link.get('href') # Evita KeyError si no existe
+
+# Navegar mediante relaciones familiares del DOM
+parent_node = first_link.parent          # Nodo padre
+for child in parent_node.children:       # Iterar por los hijos directos
+    print(child)
+
+next_node = first_link.next_sibling      # Siguiente hermano en el mismo nivel
+prev_node = first_link.previous_sibling  # Hermano anterior
+```
+
+---
+
+## ⚡ Web Scraping Dinámico: Selenium
+
+Cuando el HTML inicial viene prácticamente vacío y depende de JavaScript para renderizar el texto de interés, usamos **Selenium** para emular un navegador real.
+
+* **Ventaja:** Permite interactuar humanamente con el sitio (escribir en inputs, hacer clic en botones ocultos, bajar scroll).
+* **Desventaja:** Es considerablemente **más lento** que el scraping estático y requiere la gestión de tiempos de espera (*waits*) y controladores del sistema (*webdrivers*).
+
+---
+
+## ⚖️ Consideraciones Éticas y Legales
+
+Desarrollar un scraper robusto requiere responsabilidad técnica y civil:
+
+### 🧠 Principios Éticos
+* **Respeto a la Privacidad:** Evitar a toda costa la captura de datos personales sensibles sin consentimiento explícito, en cumplimiento con normativas severas como el **GDPR**.
+* **Carga de Servidores:** No saturar los recursos del servidor destino enviando miles de peticiones por segundo, previniendo provocar ataques de Denegación de Servicio (DoS).
+* **Transparencia:** Asegurar que los datos extraídos se destinen únicamente a fines legítimos y no comerciales/perjudiciales si infringe derechos.
+
+### 📜 Reglas Legales y Buenas Prácticas
+1. **Adherencia al archivo `robots.txt`:** Siempre consultar `https://sitio.com` para identificar qué rutas de la web están explícitamente vedadas a los agentes automatizados (*User-agents*).
+2. **Revisión de Términos de Servicio (ToS):** Validar si las cláusulas contractuales del sitio prohíben explícitamente la minería de datos (*data mining*).
+3. **Gestión de la Carga:** Implementar retrasos aleatorios (`time.sleep`) entre peticiones y programar ejecuciones en horarios con menor tráfico web.
 
 
 ## Sobre el Máster
