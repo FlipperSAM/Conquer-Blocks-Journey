@@ -360,6 +360,106 @@ except ValueError:
 ```
 ---
 
+# Estadística Aplicada a la Inteligencia Artificial
+
+Este repositorio contiene los apuntes, conceptos fundamentales y ejercicios prácticos del curso de **Estadística Aplicada**, con un enfoque especial en su relevancia para el desarrollo de Redes Neuronales y modelos de Inteligencia Artificial.
+
+---
+
+## Temario del Curso
+
+1. Introducción a la Estadística
+2. Estadística Descriptiva
+3. Gráficos y Visualización de Datos
+4. Probabilidad
+5. Distribuciones de Probabilidad
+6. Correlación y Regresión
+7. Métodos de Muestreo
+8. Aplicaciones de la Estadística en Redes Neuronales
+9. Ejercicio Práctico
+
+---
+
+## Importancia de la Estadística en Redes Neuronales
+
+### ¿Por qué es importante?
+La estadística es crucial para la inteligencia artificial porque proporciona las herramientas y métodos necesarios para analizar datos, construir y validar modelos, hacer inferencias, manejar la incertidumbre y optimizar algoritmos. Sin la estadística, muchos de los avances en IA no serían posibles.
+
+### Aplicaciones de la estadística en IA
+* **Análisis de datos:** Comprensión inicial de las variables y detección de patrones.
+* **Validación de Modelos:** Evaluación del rendimiento mediante métricas estadísticas.
+* **Modelos Predictivos:** Construcción de funciones de estimación basadas en datos históricos.
+* **Reducción de dimensiones:** Simplificación del espacio de características (ej. PCA).
+* **Análisis de la incertidumbre:** Cuantificación del riesgo y la probabilidad en las predicciones.
+* **Optimización:** Ajuste de pesos y funciones de pérdida mediante cálculo y probabilidad.
+
+---
+
+## ¿Qué es la Estadística?
+
+La **estadística** es una rama de las matemáticas que se encarga de recolectar, analizar, interpretar, presentar y organizar datos. Es una herramienta fundamental en muchas disciplinas, como la economía, la biología, la ingeniería, la psicología, la sociología y la inteligencia artificial, ya que permite tomar decisiones informadas basadas en datos y tendencias.
+
+Se divide principalmente en dos grandes áreas:
+
+| Área | Descripción | Técnicas Comunes |
+| :--- | :--- | :--- |
+| **Estadística Descriptiva** | Se enfoca en describir y resumir un conjunto de datos para representar la información de manera comprensible. | Media, mediana, moda, desviación estándar, histogramas y diagramas de dispersión. |
+| **Estadística Inferencial** | Centrada en hacer inferencias o predicciones sobre una población a partir de una muestra de datos. | Estimación de intervalos de confianza, pruebas de hipótesis, análisis de regresión y ANOVA. |
+
+---
+
+## Estadística Descriptiva
+
+Esta sección se enfoca en describir y resumir un conjunto de datos a través de cuatro pilares de medición:
+* Medidas de tendencia central
+* Medidas de dispersión
+* Medidas de forma
+
+### Medidas de Tendencia Central
+
+#### 1. Media
+La media aritmética indica el **valor promedio** de un conjunto de datos. Se utiliza para representar el valor típico de una muestra y es una de las medidas más comunes en la estadística descriptiva.
+
+* **Fórmula de la Media:**
+  $$\bar{x} = \frac{1}{n} \sum_{i=1}^{n} x_i$$
+
+* **Otros tipos de media:**
+  * Media Geométrica
+  * Media Armónica
+  * Media Ponderada
+  * Media Cuadrática
+
+#### 2. Mediana
+Es el **valor central** de un conjunto de datos previamente ordenados de menor a mayor. A diferencia de la media, la mediana **no se ve afectada por valores extremos (outliers)**, por lo que proporciona una mejor representación del centro en distribuciones asimétricas.
+
+* **¿Cómo se calcula?**
+  1. Ordenar la muestra de menor a mayor.
+  2. Elegir el elemento central:
+     * **Si el número de elementos ($n$) es impar:** Se toma el valor en la posición $\frac{n + 1}{2}$. *(Ej: si hay 99 elementos, se toma la posición 50).*
+     * **Si el número de elementos ($n$) es par:** Se calcula la media de los dos valores centrales que ocupan las posiciones $\frac{n}{2}$ y $\frac{n}{2} + 1$. *(Ej: si hay 100 elementos, se promedian los valores de las posiciones 50 y 51).*
+
+#### 3. Moda
+Es el **valor que aparece con mayor frecuencia** en un conjunto de datos (el número que más se repite). 
+* Proporciona una idea rápida del valor más típico de la muestra.
+* A diferencia de la media y la mediana, la moda **no necesariamente representa un valor central**.
+
+---
+
+## Dataset de Trabajo (Ejercicio Práctico)
+
+Para el desarrollo práctico del curso y la generación de gráficos como histogramas, utilizaremos el siguiente conjunto de datos:
+
+* **Enlace al dataset:** [Anual Salary reports survey en Kaggle](https://www.kaggle.com/datasets/micheldc55/anual-salary-reports-survey)
+* **Descripción:** Contiene un informe salarial fabricado con 100,000 registros para realizar análisis predictivos y estimar el salario anual en función de variables demográficas y educativas.
+
+### Columnas del Dataset:
+* `ID`: Identificador único del candidato.
+* `income`: Ingreso anual declarado por la persona.
+* `age`: Edad de la persona al momento de la prueba.
+* `gender`: Género declarado (50% femenino, 50% masculino).
+* `education_level`: Nivel educativo alcanzado (0: Primaria completa, 1: Secundaria completa, 2: Terciaria completa, 3: Posgrado completo).
+
+
 ## Sobre el Máster
 Estoy formándome en [Conquer Blocks](https://conquerblocks.com), una academia de alto rendimiento enfocada en tecnologías modernas y buenas prácticas de programación.
 
