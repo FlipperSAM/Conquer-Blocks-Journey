@@ -744,11 +744,11 @@ Este módulo aborda las técnicas esenciales de **Web Scraping** (tanto estátic
 
 El web scraping se ubica en la primera etapa crítica del pipeline de Inteligencia Artificial aplicada al texto:
 
-> 💡 **Nota:** En NLP, los datos son tan importantes como el algoritmo. Internet es un océano de datos crudos, estimándose que entre el **80% y el 95% del contenido es inaccesible a través de búsquedas convencionales**, requiriendo métodos automatizados de extracción especializada.
+> **Nota:** En NLP, los datos son tan importantes como el algoritmo. Internet es un océano de datos crudos, estimándose que entre el **80% y el 95% del contenido es inaccesible a través de búsquedas convencionales**, requiriendo métodos automatizados de extracción especializada.
 
 ---
 
-## 🛠️ Tipos de Web Scraping y Herramientas
+## Tipos de Web Scraping y Herramientas
 
 | Tipo de Scraping | Descripción | Escenario de Uso | Herramientas en Python |
 | :--- | :--- | :--- | :--- |
@@ -758,7 +758,7 @@ El web scraping se ubica en la primera etapa crítica del pipeline de Inteligenc
 
 ---
 
-## 📄 Web Scraping Estático
+## Web Scraping Estático
 
 El contenido se descarga mediante una petición HTTP ordinaria y se parsea la estructura de etiquetas.
 
@@ -821,7 +821,7 @@ prev_node = first_link.previous_sibling  # Hermano anterior
 
 ---
 
-## ⚡ Web Scraping Dinámico: Selenium
+## Web Scraping Dinámico: Selenium
 
 Cuando el HTML inicial viene prácticamente vacío y depende de JavaScript para renderizar el texto de interés, usamos **Selenium** para emular un navegador real.
 
@@ -830,16 +830,16 @@ Cuando el HTML inicial viene prácticamente vacío y depende de JavaScript para 
 
 ---
 
-## ⚖️ Consideraciones Éticas y Legales
+## Consideraciones Éticas y Legales
 
 Desarrollar un scraper robusto requiere responsabilidad técnica y civil:
 
-### 🧠 Principios Éticos
+### Principios Éticos
 * **Respeto a la Privacidad:** Evitar a toda costa la captura de datos personales sensibles sin consentimiento explícito, en cumplimiento con normativas severas como el **GDPR**.
 * **Carga de Servidores:** No saturar los recursos del servidor destino enviando miles de peticiones por segundo, previniendo provocar ataques de Denegación de Servicio (DoS).
 * **Transparencia:** Asegurar que los datos extraídos se destinen únicamente a fines legítimos y no comerciales/perjudiciales si infringe derechos.
 
-### 📜 Reglas Legales y Buenas Prácticas
+### Reglas Legales y Buenas Prácticas
 1. **Adherencia al archivo `robots.txt`:** Siempre consultar `https://sitio.com` para identificar qué rutas de la web están explícitamente vedadas a los agentes automatizados (*User-agents*).
 2. **Revisión de Términos de Servicio (ToS):** Validar si las cláusulas contractuales del sitio prohíben explícitamente la minería de datos (*data mining*).
 3. **Gestión de la Carga:** Implementar retrasos aleatorios (`time.sleep`) entre peticiones y programar ejecuciones en horarios con menor tráfico web.
