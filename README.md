@@ -644,6 +644,71 @@ Los **métodos de muestreo** son técnicas para seleccionar un subconjunto repre
 ---
 ---
 
+### Fichas Técnicas de Muestreo
+
+#### 1. Muestreo Aleatorio Simple
+Cada miembro de la población tiene exactamente la misma probabilidad de ser seleccionado.
+* **Ventajas:** Extremadamente fácil de entender y aplicar; genera muestras muy limpias si la población es homogénea.
+* **Desventajas:** Difícil de implementar en poblaciones masivas; puede ignorar la representatividad si existen subgrupos importantes.
+* **Ejemplo:** Seleccionar 100 alumnos al azar mediante un sorteo informático de una lista de 1,000 estudiantes para evaluar sus hábitos de lectura.
+
+#### 2. Muestreo Estratificado
+La población se divide en subgrupos excluyentes llamados **estratos** que comparten características comunes (ej. edad, género, departamento). Luego, se extrae una muestra aleatoria simple de cada estrato de forma proporcional a su tamaño real.
+* **Ventajas:** Alta precisión y representatividad. Permite realizar análisis comparativos directos entre los diferentes subgrupos.
+* **Desventajas:** Requiere un conocimiento detallado previo de las características de la población para segmentarla correctamente.
+* **Ejemplo:** Evaluar la satisfacción laboral de una empresa de 500 empleados dividiendo la muestra de forma proporcional según sus departamentos (Ventas, Marketing, RRHH).
+
+#### 3. Muestreo por Conglomerados
+La población se encuentra dividida de forma natural en grupos heterogéneos llamados **conglomerados** (comúnmente áreas geográficas o instituciones). Se seleccionan algunos conglomerados al azar y se estudia a todos los miembros que los integran.
+* **Ventajas:** Muy económico y rápido de implementar cuando la población está dispersa geográficamente.
+* **Desventajas:** Menos preciso si los bloques seleccionados no reflejan la diversidad real de la población (introduce sesgos).
+* **Ejemplo:** Estudiar el rendimiento escolar de una ciudad seleccionando de forma aleatoria 5 colegios (conglomerados) y evaluando a la totalidad de los alumnos de esas instituciones.
+
+---
+
+## Implementación Práctica en Python
+
+A continuación se presentan los bloques de código estándar utilizando **Pandas** y **Scikit-Learn** para ejecutar visualizaciones y técnicas de muestreo sobre nuestros conjuntos de datos:
+
+### Cálculo de Correlación y Regresión
+```python
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+from sklearn.linear_model import LinearRegression
+
+# Supongamos que cargamos el dataset de salarios o iris
+# df = pd.read_csv('dataset.csv')
+
+# 1. Calcular la matriz de correlación de Pearson
+matriz_corr = df.corr(method='pearson')
+
+# 2. Graficar un Heatmap de las correlaciones
+plt.figure(figsize=(8, 6))
+sns.heatmap(matriz_corr, annot=True, cmap='coolwarm', fmt=".2f")
+plt.title('Matriz de Correlación de Pearson')
+plt.show()
+```
+
+### Técnicas de Muestreo con Pandas
+```python
+# Muestreo Aleatorio Simple (Extraer el 10% de los datos)
+muestra_simple = df.sample(frac=0.10, random_state=42)
+
+# Muestreo Estratificado (Proporcional según una columna categórica)
+# Usamos train_test_split de sklearn para mantener la proporción del estrato
+from sklearn.model_selection import train_test_split
+
+muestra_estratificada, _ = train_test_split(df, test_size=0.90, stratify=df['education_level'], random_state=42)
+```
+
+---
+
+## Tamaño de la Muestra y Error
+
+El tamaño de la muestra es un factor crítico que define la calidad de las métricas en Ciencia de Datos:
+* **Precisión:** A mayor tamaño de muestra, menor es la variabilidad de las estimaciones (los parámetros calculados se estabilizan y se acercan al valor real de la población).
+* **Representatividad:** Las muestras grandes capturan mejor la diversidad intrínseca y los casos atípicos controlados de la población.
 
 ## Sobre el Máster
 Estoy formándome en [Conquer Blocks](https://conquerblocks.com), una academia de alto rendimiento enfocada en tecnologías modernas y buenas prácticas de programación.
